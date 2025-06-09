@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Morgaroth" tp="1" nameDescription="Morgaroth" race="blood" experience="44500" speed="700" manacost="0">
+    <health now="95000" max="95000"/>
+    <look type="35" head="20" corpse="5995"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag canpushcreatures="1"/>
+      <flag staticattack="90"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+  <attacks>
+      <attack name="ultimate explosion" interval="3000" chance="50" min="-2200" max="-2700"/>
+      <attack name="melee" interval="2000" min="-2400" max="-3200"/>
+      <attack name="Berserk" interval="4000" chance="75" min="2340" max="-2800"/>
+      <attack name="Fire Field" interval="6000" chance="65" min="-800" max="-1220"/>
+      <attack name="Great Energy Beam" interval="5000" chance="20" min="-1300" max="-1800"/>
+    </attacks>
+    <defenses armor="32" defense="35">
+      <defense name="healing" interval="1000" chance="25" min="60" max="100">
+        <attribute key="areaEffect" value="blueshimmer"/>
+      </defense>
+      <defense name="plinkvis" interval="2000" chance="30" duration="5000">
+        <attribute key="areaEffect" value="blueshimmer"/>
+      </defense>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <summons max="1">
+      <summon name="demon" interval="1000" chance="3000"/>
+    </summons>
+    <voices interval="5000" chance="100">
+      <voice sentence="Give me your blood!"/>
+      <voice sentence="Morgaroth attack!"/>
+    </voices>
+  <loot>
+  <item id="7422" chance="5000"/>
+  <item id="2264" chance="555"/>
+  <item id="2160" chance="100000" countmax="35" /> -- gold coin
+  <item id="2160" chance="50000" countmax="10" /> -- gold coin
+  <item id="2143" chance="5000" countmax="5" /> -- white pearl
+  <item id="2186" chance="1538" /> -- moonlight rod
+  <item id="2396" chance="1429" /> -- ice rapier
+  <item id="2462" chance="2000" /> -- devil helmet
+  <item id="2214" chance="4000" /> -- ring of healing
+  <item id="1987" chance="100000" > -- bag
+  <inside>
+  	<item id="2387" chance="10000" /> -- double axe
+  	<item id="2393" chance="2800" /> -- giant sword
+  	<item id="2195" chance="3333" /> -- boots of haste
+  	<item id="2421" chance="2000" /> -- thunder hammer
+        <item id="7431" chance="2000" /> -- demonbone
+  	<item id="2192" chance="4000" /> -- crystal ball
+  </inside>
+  </item>
+  </loot>
+  </monster>

@@ -1,0 +1,7 @@
+<npc name="The Valan" script="data/npc/scripts/rune.lua" access="5">
+	<health now="150" max="150"/>
+	<look type="128" head="0" body="116" legs="120" feet="38" addons="1" corpse="2212"/>
+	<parameters>
+		
+	</parameters>
+</npc>

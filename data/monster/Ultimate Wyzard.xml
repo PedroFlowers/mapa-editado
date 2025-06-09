@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Ultimate Wyzard" species="human" nameDescription="a Ultimate Wyzard" race="blood" experience="2500000" speed="800" manacost="0">
+    <health now="2300000" max="2300000"/>
+    <look type="130" head="114" body="0" legs="114" feet="0" addons="3" corpse="3128"/>
+    <targetchange interval="60000" chance="10"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="5"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-5600" max="-7800"/>
+      <attack name="wandzada" interval="3000" chance="10" min="-30000" max="-32000"/>
+      <attack name="poison ball" interval="3000" chance="10" min="-30000" max="-32000"/>
+      <attack name="balrog fireball" interval="3000" chance="10" min="-30000" max="-32000"/>
+      <attack name="blood ball" interval="3000" chance="10" min="-30000" max="-32000"/>
+    </attacks>
+    <defenses armor="30" defense="30">
+      <defense name="light healing" interval="4000" chance="20" min="12000" max="13000"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="5000" chance="5">
+      <voice sentence="Fire Shoot!"/>
+    </voices>
+    <loot>
+      <item id="13685" countmax="30" chance1="100000" chancemax="0"/>
+      <item id="13591" chance="8000"/>
+      <item id="13552" chance="8000"/>
+      <item id="3940" chance="10000">
+        <inside>
+          <item id="13593" chance="8000"/>
+          <item id="13549" chance="8000"/>
+          <item id="13582" chance="8000"/>                
+          <item id="13557" chance="8000"/>
+          <item id="13595" chance="8000"/>
+          <item id="13598" chance="8000"/>
+          <item id="13600" chance="8000"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>
+
+

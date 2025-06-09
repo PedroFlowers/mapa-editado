@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="The Masked Marauder" tp="1" species="boss" nameDescription="a The Masked Marauder" race="venom" experience="1120000" speed="300" manacost="0">
+    <health now="989100" max="989100"/>
+    <look type="244" corpse="6336"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag canpushcreatures="1"/>
+      <flag targetdistance="1"/>
+      <flag staticattack="90"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-14860" max="-16090"/>
+      <attack name="large rock" interval="4000" chance="80" min="-8312" max="-9270"/>
+      <attack name="melee" interval="6000" chance="40" min="-16312" max="-18970"/>
+      <attack name="melee" interval="8000" chance="20" min="-19312" max="-21270"/>
+      <attack name="rocks berserk" interval="6000" chance="40" min="-11990" max="-13370"/>
+      <attack name="paralyze" interval="6000" chance="35"/>
+      <attack name="drunk" interval="4000" chance="65"/>
+      <attack name="speed" interval="1000" chance="12" radius="6" target="0" speedchange="-900" duration="60000"/>
+        <attribute key="areaEffect" value="poison"/>
+    </attacks>
+    <defenses armor="15" defense="15">
+      <defense name="speed" interval="4000" chance="30" speedchange="580" duration="4000">
+        <attribute key="areaEffect" value="redshimmer"/>
+      </defense>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="3000" chance="100">
+      <voice sentence="WAHHHH!"/>
+      <voice sentence="RAAARRR!"/>
+      <voice sentence="GRRRRRR!"/>
+    </voices>
+    <loot>
+  <item id="7404" chance="500"/>
+  <item id="6540" chance="2500" />
+  <item id="2220" chance="10000" />
+  <item id="2228" chance="5000" />
+  <item id="6558" chance="1818" />
+  <item id="6558" chance="1818" />
+  <item id="6558" chance="1818" />
+  <item id="6558" chance="1818" />
+  <item id="6558" chance="1818" />
+  <item id="6558" chance="1818" />
+  <item id="6558" chance="1818" />
+  <item id="6500" chance="1429" countmax="1" />
+  <item id="5926" chance="100000" >
+  <inside>
+      <item id="2160" countmax="30" chance1="5000" chancemax="0"/>
+  	<item id="5944" chance="1333" countmax="1" />
+      <item id="2197" chance="500" />
+      <item id="2197" chance="500" />
+      <item id="7405" chance="500" />
+      <item id="7422" chance="500" />
+      <item id="2426" chance="500" />
+  </inside>
+  </item>
+   </loot>
+  </monster>

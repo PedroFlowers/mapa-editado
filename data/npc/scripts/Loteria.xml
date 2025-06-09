@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<npc name="Loteria" script="data/npc/scripts/mega.lua" access="3" lookdir="1" speed="80">
+      <look type="128" head="24" body="77" legs="10" feet="20" addon="3"/>
+</npc>

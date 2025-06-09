@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Alchemist" tp="1" species="magic"  nameDescription="a Alchemist" race="blood" experience="120000" speed="500" manacost="0">
+    <health now="300000" max="300000"/>
+    <look type="133" head="0" body="94" legs="94" feet="81" addons="1" corpse="3128"/>
+    <targetchange interval="60000" chance="10"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="1"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="30"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="250"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-1000" max="-3000"/>
+      <attack name="explosion" interval="2500" chance="70" min="-880" max="-4020"/>
+      <attack name="sudden death" interval="3000" chance="30" min="-3970" max="-4395"/>
+    </attacks>
+    <defenses armor="40" defense="45">
+      <defense name="Invisible" interval="10000" chance="20"/>
+      <defense name="Light Healing" interval="4000" chance="5" min="1150" max="1300"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="0"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="2000" chance="70">
+      <voice sentence="Your energy is mine."/>
+      <voice sentence="Now your life has come to the end, hahahaha!"/>
+    </voices>
+    <loot>
+      <item id="2160" countmax="15" chance1="33333" chancemax="0"/>
+      <item id="2151" countmax="4" chance1="33333" chancemax="0"/>
+      <item id="2789" countmax="5" chance1="10000" chancemax="0"/>
+      <item id="2167" chance="1818"/>
+      <item id="2436" chance="1818"/>
+      <item id="13566" chance="1000"/>
+      <item id="13563" chance="1000"/>
+      <item id="4863" chance="500"/>
+      <item id="7390" chance="800"/>
+      <item id="3939" chance="100000">
+        <inside>
+          <item id="13552" chance="700"/> --Mind Helmet
+          <item id="2453" chance="700"/> --Arcane Wand
+          <item id="7426" chance="700"/> --Mind Wand
+          <item id="13591" chance="700"/> --Mind Robe
+          <item id="2505" chance="700"/> --Elven Armor
+          <item id="13531" chance="700"/> --Elven Crossbow
+          <item id="2506" chance="700"/> --Elven Helmet
+        </inside>
+      </item>
+    </loot>
+  </monster>
+

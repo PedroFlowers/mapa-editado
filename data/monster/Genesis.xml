@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Genesis" species="undead" nameDescription="a Genesis" race="undead" experience="1488500" speed="300" manacost="0">
+    <health now="1500000" max="1500000"/>
+    <look type="100" head="20" body="30" legs="40" feet="50" corpse="3028"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="poison" interval="2000" chance="70" range="7" min="-16855" max="-19410">
+        <attribute key="shootEffect" value="poison"/>
+      </attack>
+      <attack name="melee" interval="2000" min="-38041" max="-40030"/>
+      <attack name="drunk" interval="4000" chance="65"/>
+    </attacks>
+    <defenses armor="25" defense="26"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="Chhhhhhh!"/>
+      <voice sentence="Hooooohhh!"/>
+      <voice sentence="Aaaaaahhh!"/>
+    </voices>
+    <loot>
+      <item id="6558" chance="1818"/>
+      <item id="6558" chance="1818"/>
+      <item id="6558" chance="1818"/>
+      <item id="6558" chance="1818"/>
+      <item id="7440" chance="1818"/>
+      <item id="7440" chance="1818"/>
+      <item id="7440" chance="1818"/>
+      <item id="7440" chance="1818"/>
+      <item id="7440" chance="1818"/>
+      <item id="6558" chance="1818"/>
+      <item id="1994" chance="100000">
+        <inside>
+          <item id="2524" chance="600"/>
+          <item id="2472" chance="600"/>
+          <item id="2470" chance="600"/>
+          <item id="7438" chance="600"/>
+          <item id="2401" chance="600"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="VIP Dark Wisdow" tp="1" nameDescription="a VIP Dark Wisdow" species="poison" race="venom" experience="500000" speed="300" manacost="0">
+    <health now="350000" max="350000"/>
+    <look type="38" head="0" body="0" legs="0" feet="0" corpse="2857"/>
+    <targetchange/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="1"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-5900" max="-6200"/>
+      <attack name="critical hit" interval="9500" chance="10" min="-7900" max="-8500"/>
+      <attack name="ultimate poison" interval="3500" chance="40" min="-3700" max="-3900"/>
+      <attack name="poisonfield" interval="1000" chance="30" range="7" radius="1" target="1">
+      <attribute key="shootEffect" value="poison"/>
+    </attack>
+    </attacks>
+    <defenses armor="30" defense="35"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+     <loot>
+      <item id="2160" countmax="10" chance1="5000" chancemax="0"/>
+      <item id="5879" countmax="5" chance1="5000" chancemax="0"/>
+      <item id="5886" countmax="5" chance1="5000" chancemax="0"/>
+      <item id="2004" chance="100000">
+        <inside>
+          <item id="13534" chance="800"/>
+          <item id="2169" chance="2500"/>
+          <item id="13515" chance="800"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>
+

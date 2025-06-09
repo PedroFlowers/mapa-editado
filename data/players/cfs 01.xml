@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<player name="Cfs 01" account="8423648" sex="1" lookdir="3" exp="282504200" voc="1" level="258" access="0" cap="1630" maglevel="46" soul="100" maxdepotitems="1000" lastlogin="1749512255">
+  <spawn x="999" y="1000" z="7"/>
+  <temple x="1000" y="1000" z="7"/>
+  <health now="2690" max="2690" food="0"/>
+  <mana now="13078" max="15040" spent="1524580"/>
+  <skull redskulltime="0" redskull="0"/>
+  <look type="130" head="0" body="114" legs="132" feet="0" addons="0"/>
+  <skills>
+    <skill skillid="0" level="22" tries="5000"/>
+    <skill skillid="1" level="10" tries="0"/>
+    <skill skillid="2" level="10" tries="0"/>
+    <skill skillid="3" level="10" tries="0"/>
+    <skill skillid="4" level="10" tries="0"/>
+    <skill skillid="5" level="16" tries="0"/>
+    <skill skillid="6" level="10" tries="0"/>
+  </skills>
+  <addons/>
+  <deaths/>
+  <spells/>
+  <blessings/>
+  <inventory>
+    <slot slotid="1">
+      <item id="2493"/>
+    </slot>
+    <slot slotid="2">
+      <item id="13682"/>
+    </slot>
+    <slot slotid="3">
+      <item id="1988">
+        <inside>
+          <item id="13690" count="100" charges="100"/>
+          <item id="2294" count="1"/>
+          <item id="2268" count="1"/>
+          <item id="2273" count="1"/>
+          <item id="2313" count="1"/>
+          <item id="2173"/>
+          <item id="2160" count="69"/>
+          <item id="2152" count="96"/>
+          <item id="2148" count="75"/>
+          <item id="2268" count="1"/>
+        </inside>
+      </item>
+    </slot>
+    <slot slotid="4">
+      <item id="2494"/>
+    </slot>
+    <slot slotid="6">
+      <item id="13682"/>
+    </slot>
+    <slot slotid="7">
+      <item id="2647"/>
+    </slot>
+    <slot slotid="8">
+      <item id="2643"/>
+    </slot>
+    <slot slotid="10">
+      <item id="13682"/>
+    </slot>
+  </inventory>
+  <depots>
+    <depot depotid="1">
+      <item id="2590">
+        <inside>
+          <item id="2594">
+            <inside>
+              <item id="2152" count="50"/>
+            </inside>
+          </item>
+        </inside>
+      </item>
+    </depot>
+  </depots>
+  <storage>
+    <data key="2160" value="1"/>
+    <data key="2268" value="1"/>
+    <data key="2273" value="1"/>
+    <data key="2294" value="1"/>
+    <data key="2313" value="1"/>
+    <data key="10001001" value="8912896"/>
+    <data key="10001002" value="8978432"/>
+    <data key="10001003" value="9043968"/>
+    <data key="10001004" value="9109504"/>
+    <data key="10001005" value="9175040"/>
+    <data key="10001006" value="9240576"/>
+    <data key="10001007" value="9306112"/>
+    <data key="10001008" value="9633792"/>
+    <data key="10001009" value="9699328"/>
+    <data key="10001010" value="9764864"/>
+    <data key="10001011" value="9830400"/>
+    <data key="10001012" value="10158080"/>
+    <data key="10001013" value="10223616"/>
+    <data key="10001014" value="10289152"/>
+    <data key="10001015" value="10354688"/>
+  </storage>
+</player>

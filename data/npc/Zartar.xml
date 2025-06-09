@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<npc name="Zartar" script="data/npc/scripts/necklace.lua" access="5" level="1" maglevel="1" lookdir="1" autowalk="25">
+<look type="130" head="0" body="114" legs="114" feet="94" addons="3"/>
+</npc>

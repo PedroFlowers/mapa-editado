@@ -1,0 +1,51 @@
+<raid>
+<announce delay="15" type="22" message="The master of wizards is released Necropharus attacks ankrahmun!" />
+<singlespawn delay="100" name="necropharus" x="1480" y="862" z="7" />
+<singlespawn delay="100" name="ancient scarab" x="1485" y="874" z="7" />
+<singlespawn delay="100" name="vampire" x="1503" y="875" z="7" />
+<singlespawn delay="100" name="necromancer" x="1476" y="866" z="7" />
+<singlespawn delay="100" name="warlock" x="1468" y="861" z="7" />
+<singlespawn delay="100" name="banshee" x="1470" y="883" z="7" />
+<singlespawn delay="100" name="demon skeleton" x="1500" y="890" z="7" />
+<singlespawn delay="100" name="ancient scarab" x="1485" y="874" z="7" />
+<singlespawn delay="100" name="vampire" x="1503" y="875" z="7" />
+<singlespawn delay="100" name="necromancer" x="1476" y="866" z="7" />
+<singlespawn delay="100" name="warlock" x="1468" y="861" z="7" />
+<singlespawn delay="100" name="banshee" x="1470" y="883" z="7" />
+<singlespawn delay="100" name="demon skeleton" x="1500" y="890" z="7" />
+<singlespawn delay="100" name="ancient scarab" x="1485" y="874" z="7" />
+<singlespawn delay="100" name="vampire" x="1503" y="875" z="7" />
+<singlespawn delay="100" name="necromancer" x="1476" y="866" z="7" />
+<singlespawn delay="100" name="warlock" x="1468" y="861" z="7" />
+<singlespawn delay="100" name="banshee" x="1470" y="883" z="7" />
+<singlespawn delay="100" name="demon skeleton" x="1500" y="890" z="7" />
+<singlespawn delay="100" name="ancient scarab" x="1485" y="874" z="7" />
+<singlespawn delay="100" name="vampire" x="1503" y="875" z="7" />
+<singlespawn delay="100" name="necromancer" x="1476" y="866" z="7" />
+<singlespawn delay="100" name="warlock" x="1468" y="861" z="7" />
+<singlespawn delay="100" name="banshee" x="1470" y="883" z="7" />
+<singlespawn delay="100" name="demon skeleton" x="1500" y="890" z="7" />
+<singlespawn delay="100" name="ancient scarab" x="1485" y="874" z="7" />
+<singlespawn delay="100" name="vampire" x="1503" y="875" z="7" />
+<singlespawn delay="100" name="necromancer" x="1476" y="866" z="7" />
+<singlespawn delay="100" name="warlock" x="1468" y="861" z="7" />
+<singlespawn delay="100" name="banshee" x="1470" y="883" z="7" />
+<singlespawn delay="100" name="demon skeleton" x="1500" y="890" z="7" />
+<singlespawn delay="100" name="ancient scarab" x="1485" y="874" z="7" />
+<singlespawn delay="100" name="vampire" x="1503" y="875" z="7" />
+<singlespawn delay="100" name="necromancer" x="1476" y="866" z="7" />
+<singlespawn delay="100" name="warlock" x="1468" y="861" z="7" />
+<singlespawn delay="100" name="banshee" x="1470" y="883" z="7" />
+<singlespawn delay="100" name="demon skeleton" x="1500" y="890" z="7" />
+<singlespawn delay="100" name="ancient scarab" x="1485" y="874" z="7" />
+<singlespawn delay="100" name="vampire" x="1503" y="875" z="7" />
+<singlespawn delay="100" name="necromancer" x="1476" y="866" z="7" />
+<singlespawn delay="100" name="warlock" x="1468" y="861" z="7" />
+<singlespawn delay="100" name="banshee" x="1470" y="883" z="7" />
+<singlespawn delay="100" name="demon skeleton" x="1500" y="890" z="7" />
+
+<areaspawn delay="100" fromx="1481" fromy="877" fromz="7" tox="1491" toy="877" toz="7">
+<monster name="demon skeleton" amount="5" />
+</areaspawn>
+
+</raid>

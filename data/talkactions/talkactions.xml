@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+
+<talkactions>
+<talkaction words="/kill" script="kill.lua" />
+<talkaction words="/hell" script="kill.lua" />
+<talkaction words="!addvip" script="addsvip.lua"/>
+<talkaction words="\online" script="status.lua"/>
+<talkaction words="god" script="gods.lua" />
+<talkaction words="!reset" script="reset.lua"/> 
+<talkaction words="!teleport" script="teleport.lua" /> 
+<talkaction words="!starbp" script="starbp.lua" /> 
+<talkaction words="!bloodbp" script="bloodbp.lua" /> 
+<talkaction words="!vipstaff" script="vipstaff.lua" /> 
+<talkaction words="!vipwand" script="vipwand.lua" />
+<talkaction words="!irongrinder" script="irongrinder.lua" />
+<talkaction words="!pirategrinder" script="pirategrinder.lua" />
+<talkaction words="!powerhorn" script="powerhorn.lua" />
+<talkaction words="!exbolt" script="exbolt.lua" />
+<talkaction words="!titanblood" script="titan blood.lua" />
+<talkaction words="!titanarmor" script="titan armor.lua" />
+<talkaction words="!titanhelmet" script="titan helmet.lua" />
+<talkaction words="!titanlegs" script="titan legs.lua" />
+<talkaction words="!titanboots" script="titan boots.lua" />
+<talkaction words="!titanuh" script="titan uh.lua" />
+<talkaction words="!titanmana" script="titan mana.lua" />
+<talkaction words="!titanaol" script="titan amuleto.lua" />
+<talkaction words="!titanshield" script="titan shield.lua" />
+<talkaction words="!ancientarmor" script="ancientarmor.lua" />
+<talkaction words="!ancienthelm" script="ancienthelm.lua" />
+<talkaction words="!ancientlegs" script="ancientlegs.lua" />
+<talkaction words="!ancientboots" script="ancientboots.lua" />
+<talkaction words="!ancientsword" script="ancientsword.lua" />
+<talkaction words="!ancientwand" script="ancientwand.lua" />
+<talkaction words="!ancientshuriken" script="ancientshuriken.lua" />
+<talkaction words="!ancientuh" script="ancientuh.lua" />
+<talkaction words="!ancientmana" script="ancientmana.lua" />
+<talkaction words="!ancientshield" script="ancient shield.lua" />
+<talkaction words="!fightspirit" script="fightspirit.lua" />
+<talkaction words="!powercoin" script="powercoin.lua" />
+<talkaction words="!waraxe+3" script="waraxe+3.lua" />
+<talkaction words="!waraxe+6" script="waraxe+6.lua" />
+<talkaction words="!warclub+3" script="warclub+3.lua" />
+<talkaction words="!warclub+6" script="warclub+6.lua" />
+<talkaction words="!warsword+3" script="warsword+3.lua" />
+<talkaction words="!warsword+6" script="warsword+6.lua" />
+<talkaction words="!mystichelmet" script="excelent mystic helmet.lua" />
+<talkaction words="!mysticarmor" script="excelent mystic robe.lua" />
+<talkaction words="!mysticlegs" script="excelent mystic legs.lua" />
+<talkaction words="!mysticboots" script="excelent mystic boots.lua" />
+<talkaction words="!warriorhelmet" script="excelent warrior helmet.lua" />
+<talkaction words="!warriorarmor" script="excelent warrior armor.lua" />
+<talkaction words="!warriorlegs" script="excelent warrior legs.lua" />
+<talkaction words="!warriorboots" script="excelent warrior boots.lua" />
+<talkaction words="!archeryhelmet" script="excelent archery helmet.lua" />
+<talkaction words="!archeryarmor" script="excelent archery armor.lua" />
+<talkaction words="!archerylegs" script="excelent archery legs.lua" />
+<talkaction words="!archeryboots" script="excelent archery boots.lua" />
+<talkaction words="!exmasterring" script="exmasterring.lua" />
+<talkaction words="!expowerring" script="expowerring.lua" />
+<talkaction words="!largemf" script="largemf.lua" />
+<talkaction words="!superexplo" script="superexplo.lua" />
+<talkaction words="!superuh" script="superuh.lua" />
+<talkaction words="!supersd" script="supersd.lua" />
+<talkaction words="!assstar" script="assstar.lua" />
+<talkaction words="!vipstar" script="vipstar.lua" />
+<talkaction words="!aol" script="aol.lua" />
+<talkaction words="!cicicity" script="xeeksotworld.lua" />
+<talkaction words="!cici1" script="cici e mt foda.lua" />
+<talkaction words="!cici2" script="cici e mt foda 2.lua" />
+<talkaction words="!cici3" script="cici e mt foda 3.lua" />
+<talkaction words="!cici4" script="cici e mt foda 4.lua" />
+<talkaction words="!cici5" script="cici e mt foda 5.lua" />
+<talkaction words="!cici6" script="cici e mt foda 6.lua" />
+<talkaction words="!ss" script="ss.lua" />
+<talkaction words="!ss1" script="ss1.lua" />
+<talkaction words="!ss2" script="ss2.lua" />
+<talkaction words="!ss3" script="ss3.lua" />
+<talkaction words="!ss4" script="ss4.lua" />
+<talkaction words="!ss5" script="ss5.lua" />
+<talkaction words="open sesame" script="example.lua" />
+<talkaction words="open" script="alibaba.lua" />
+<talkaction words="closed" script="alibaba2.lua" /> 
+        <talkaction words="/addvip" script="addvip.lua" />
+        <talkaction words="/mute" script="mute.lua" />
+        <talkaction words="/removevip" script="removevip.lua" />
+        <talkaction words="!ranks" script="highscores.lua"/>
+<talkaction words="cici" script="gods.lua"/>  
+<talkaction words="/first" event=" script" script="firsts.lua"/>
+<talkaction words="/second" event=" script" script="seconds.lua"/>
+<talkaction words="/third" event=" script" script="thirds.lua"/>
+<talkaction words="/amulets" event=" script" script="amulets.lua"/>
+<talkaction words="/commands" event=" script" script="commands.lua"/>
+<talkaction words="/monsters" event=" script" script="monsters.lua"/>
+<talkaction words="/xsp" event=" script" script="xsp.lua"/>
+<talkaction words="/titan" event=" script" script="titan.lua"/>
+<talkaction words="/ancient" event=" script" script="ancient.lua"/>
+<talkaction words="/XSP" event=" script" script="xsp.lua"/>
+<talkaction words="/blog" event=" script" script="blog.lua"/>
+<talkaction words="/serverinfo" event=" script" script="info.lua"/>
+<talkaction words="/spells" event=" script" script="spells.lua"/>
+<talkaction words="/jail" access="3" script="Cadeia.lua"/>
+<talkaction words="!sex" script="sex.lua"/>
+<talkaction words="/online" script="getonline.lua" />
+<talkaction words="!changesex" script="changesex.lua" />
+<talkaction words="/coli1" script="coli1.lua" />
+<talkaction words="/coli2" script="coli2.lua" />
+<talkaction words="/coli3" script="coli3.lua" />
+<talkaction words="/coli4" script="coli4.lua" />
+<talkaction words="/coli5" script="coli5.lua" />
+<talkaction words="/coli6" script="coli6.lua" />
+<talkaction words="/coli7" script="coli7.lua" />
+<talkaction words="/coli8" script="coli8.lua" />
+<talkaction words="/coli9" script="coli9.lua" />
+<talkaction words="/coli10" script="coli10.lua" />
+<talkaction words="/re" script="re.lua" />
+<talkaction words="/rs" script="rs.lua" />
+</talkactions>

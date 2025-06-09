@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Demonio balrog" nameDescription="a Demonio balrog" race="blood" experience="49999999" speed="800" manacost="320">
+    <health now="69999999" max="69999999"/>
+    <look type="12" head="20" body="30" legs="40" feet="50" corpse="2889"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="1"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="1"/>
+      <flag pushable="0"/>
+      <flag canpushitems="0"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+     <attack name="exbolt" interval="1500" chance="100" min="-700000" max="-990000"/>
+      <attack name="sound" interval="4000" chance="100" min="-800000" max="-1010000"/>
+      <attack name="wandzada" interval="2000" chance="100" min="-450000" max="-600000"/>
+    </attacks>
+    <defenses armor="6" defense="8"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="GROOOOOOAR"/>
+    </voices>
+    <loot>
+      <item id="2671" countmax="4" chance1="80000" chancemax="0"/>
+      <item id="6542" countmax="5" chance1="10000" chancemax="10"/>
+      <item id="6541" countmax="5" chance1="10000" chancemax="10"/>
+      <item id="2671" countmax="3" chance1="80000" chancemax="0"/>
+    </loot>
+  </monster>

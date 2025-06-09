@@ -1,0 +1,33 @@
+<raid>
+<announce delay="15" type="22" message="The pirates attack thaiss in search of gold and valuable goods. Lethal Lissy login." />
+<singlespawn delay="100" name="Lethal Lissy" x="494" y="1322" z="7" />
+<singlespawn delay="100" name="pirate ghost" x="414" y="1354" z="7" />
+<singlespawn delay="100" name="pirate skeleton" x="404" y="1357" z="7" />
+<singlespawn delay="100" name="pirate cosair" x="426" y="1354" z="7" />
+<singlespawn delay="100" name="Pirate Buccaneer" x="447" y="1355" z="7" />
+<singlespawn delay="100" name="Pirate Cutthroat" x="446" y="1345" z="7" />
+<singlespawn delay="100" name="Pirate Marauder" x="446" y="1364" z="7" />
+<singlespawn delay="100" name="pirate ghost" x="414" y="1354" z="7" />
+<singlespawn delay="100" name="pirate skeleton" x="404" y="1357" z="7" />
+<singlespawn delay="100" name="pirate cosair" x="426" y="1354" z="7" />
+<singlespawn delay="100" name="Pirate Buccaneer" x="447" y="1355" z="7" />
+<singlespawn delay="100" name="Pirate Cutthroat" x="446" y="1345" z="7" />
+<singlespawn delay="100" name="Pirate Marauder" x="446" y="1364" z="7" />
+<singlespawn delay="100" name="pirate ghost" x="414" y="1354" z="7" />
+<singlespawn delay="100" name="pirate skeleton" x="404" y="1357" z="7" />
+<singlespawn delay="100" name="pirate cosair" x="426" y="1354" z="7" />
+<singlespawn delay="100" name="Pirate Buccaneer" x="447" y="1355" z="7" />
+<singlespawn delay="100" name="Pirate Cutthroat" x="446" y="1345" z="7" />
+<singlespawn delay="100" name="Pirate Marauder" x="446" y="1364" z="7" />
+<singlespawn delay="100" name="pirate ghost" x="414" y="1354" z="7" />
+<singlespawn delay="100" name="pirate skeleton" x="404" y="1357" z="7" />
+<singlespawn delay="100" name="pirate cosair" x="426" y="1354" z="7" />
+<singlespawn delay="100" name="Pirate Buccaneer" x="447" y="1355" z="7" />
+<singlespawn delay="100" name="Pirate Cutthroat" x="446" y="1345" z="7" />
+<singlespawn delay="100" name="Pirate Marauder" x="446" y="1364" z="7" />
+
+<areaspawn delay="100" fromx="913" fromy="387" fromz="4" tox="923" toy="387" toz="4">
+<monster name="demon" amount="2" />
+</areaspawn>
+
+</raid>

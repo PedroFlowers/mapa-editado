@@ -1,0 +1,8 @@
+<npc name="Roy" script="data/npc/scripts/shoes.lua" autowalk="25" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+        <look type="146" head="114" body="0" legs="0" feet="114" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. i am specialised in gems,simply say that Prince zartar likes collecting gems
+" />		
+	</parameters>
+</npc>

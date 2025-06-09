@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="VIP Balthier" nameDescription="a VIP Balthier" race="undead" experience="15500000" speed="700" manacost="0">
+    <health now="9200000" max="9200000"/>
+    <look type="122" head="20" body="30" legs="40" feet="50" corpse="4298"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="1"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="15"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-35000" max="-42000"/>
+      <attack name="exbolt" interval="3500" min="-94000" max="-103000"/>
+      <attack name="wandzada" interval="2500" min="-85000" max="-96000"/>
+    </attacks>
+    <defenses armor="10" defense="15"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="15000" chance="100">
+      <voice sentence="Die Human!"/>
+    </voices>
+  </monster>

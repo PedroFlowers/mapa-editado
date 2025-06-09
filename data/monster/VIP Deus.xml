@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="VIP Deus" species="poison" nameDescription="a VIP Deus" race="human" experience="10000000" speed="1000" manacost="0">
+    <health now="10100000" max="10100000"/>
+    <look type="128" head="0" body="0" legs="0" feet="0" corpse="3128"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="1"/>
+      <flag pushable="1"/>
+      <flag canpushitems="0"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="10"/>
+    </flags>
+    <attacks>
+      <attack name="exbolt" interval="1500" chance="100" min="-70000" max="-99000"/>
+      <attack name="sound" interval="4000" chance="100" min="-80000" max="-101000"/>
+      <attack name="wandzada" interval="2000" chance="100" min="-45000" max="-60000"/>
+    </attacks>
+    <defenses armor="3" defense="5"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <loot>
+      <item id="13685" countmax="10" chance1="100000" chancemax="0"/>
+      <item id="3940" chance="10000">
+        <inside>
+          <item id="13630" chance="1500"/>             
+          <item id="2361" chance="9000"/>
+          <item id="13532" chance="7500"/>
+          <item id="2352" chance="9000"/>
+          <item id="13687" countmax="100" chance1="100000" chancemax="0"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>

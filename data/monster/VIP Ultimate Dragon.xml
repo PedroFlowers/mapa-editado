@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="VIP Ultimate Dragon" species="fire" nameDescription="a VIP Ultimate Dragon" race="undead" experience="4800000" speed="500" manacost="0">
+    <health now="2700000" max="2700000"/>
+    <look type="302" head="20" body="30" legs="40" feet="50" corpse="13609"/>
+    <targetchange interval="60000" chance="5"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="210"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-15000" max="-16000"/>
+      <attack name="tides of darkness" interval="3500" chance="60" min="-21000" max="-26000"/>
+      <attack name="lifedrain" interval="3000" chance="40" min="-24000" max="-30000"/>
+      <attack name="dragon firewave" interval="4000" chance="40" min="-22000" max="-28000"/>
+      <attack name="sonar" interval="2500" chance="70" min="-34000" max="-36000"/>
+      <attack name="lifedrain" interval="3250" chance="40" radius="6" target="0" min="-24000" max="-26000">
+        <attribute key="areaEffect" value="poff"/>
+      </attack>
+      <attack name="lifedrain" interval="3000" chance="25" range="7" min="-10000" max="-20000">
+        <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    </attacks>
+    <defenses armor="32" defense="34">
+      <defense name="light healing" interval="4000" chance="40" min="32000" max="40000"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="8000" chance="10">
+      <voice sentence="YOU WILL DARKNESS!"/>
+      <voice sentence="DIE HUMAN!"/>
+    </voices>
+    <loot>
+      <item id="2160" countmax="30" chance1="100000" chancemax="0"/>
+      <item id="2497" chance="10000"/>
+      <item id="13556" chance="6000"/>
+      <item id="13581" chance="6000"/>        
+      <item id="2505" chance="6000"/>        
+      <item id="2506" chance="6000"/>                
+      <item id="3940" chance="100000">
+        <inside>
+          <item id="13553" chance="5000"/>        
+          <item id="13590" chance="5000"/>
+          <item id="13599" chance="5000"/>
+          <item id="13541" chance="5000"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>
+

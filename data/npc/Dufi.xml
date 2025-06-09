@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<npc name="AOL 2 E 3" script="data/npc/scripts/aol.lua" access="3" lookdir="1">
+	<health now="1000" max="1000"/>
+<look type="128" head="130" body="112" legs="112" feet="76"/>
+</npc>

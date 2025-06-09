@@ -1,0 +1,7 @@
+<npc name="Hell Demon" script="data/npc/scripts/helldemon.lua" autowalk="25" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="128" head="0" body="116" legs="120" feet="38" addons="1" corpse="2212"/>
+	<parameters>
+		
+	</parameters>
+</npc>

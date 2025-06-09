@@ -1,0 +1,9 @@
+<npc name="Ettin" script="data/npc/scripts/Blood.lua" autowalk="25" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="130" head="5" body="5" legs="5" feet="5" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I sell runes, fluids, wands and rods." />
+		<parameter key="message_needmoremoney" value="You do not have enough money." />
+		<parameter key="message_decline" value="Is |TOTALCOST| gold coins too much for you?" />
+	</parameters>
+</npc>

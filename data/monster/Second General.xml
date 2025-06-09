@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Second General" species="magic" nameDescription="a Second General" race="blood" experience="420000" speed="400" manacost="0">
+    <health now="300000" max="300000"/>
+    <look type="307" head="20" body="30" legs="40" feet="50" corpse="3128"/>
+    <targetchange interval="60000" chance="10"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="4"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-2000" max="-2200"/>
+      <attack name="energy ball" interval="3500" chance="60" min="-4800" max="-5000"/>
+      <attack name="heavy magic missile" interval="3000" chance="60" min="-4000" max="-4300"/>
+      <attack name="heavy magic missile" interval="2500" chance="40" min="-4600" max="-4800"/>
+      <attack name="Great Energy Beam" interval="4000" chance="40" min="-6300" max="-7700"/>
+    </attacks>
+    <defenses armor="40" defense="45">
+      <defense name="Invisible" interval="8000" chance="30"/>
+      <defense name="Light Healing" interval="10000" chance="40" min="500" max="800"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="0"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="6000" chance="5">
+      <voice sentence="I welcome that has beat the first general."/>
+      <voice sentence="because it will not be as easy."/>
+      <voice sentence="I would like to know as a human can be so strong."/>
+      <voice sentence="can not be defeated by a human, I am one of the guardians of the gods of the world's second prius dead!NO!!!!!!!!!"/>
+    </voices>
+    <loot>
+      <item id="2160" countmax="15" chance1="100000" chancemax="0"/>
+      <item id="2147" countmax="15" chance1="100000" chancemax="0"/>
+      <item id="2145" countmax="15" chance1="100000" chancemax="0"/>
+      <item id="2146" countmax="15" chance1="100000" chancemax="0"/>
+      <item id="3940" chance="10000">
+        <inside>
+          <item id="13561" chance="500"/> --General Boots
+          <item id="13520" chance="500"/> --Magic Plague Wand
+          <item id="13551" chance="500"/> --Demoniac Helmet
+          <item id="13683" chance="500"/> --Spirit Elemental Amulet
+          <item id="13591" chance="800"/> --Mind Robe
+          <item id="13552" chance="800"/> --Mind Helmet
+          <item id="13588" chance="500"/> --Phoenix Armor
+          <item id="13588" chance="900"/> --Venom Scale Robe
+          <item id="13538" chance="800"/> --Spirit Seeker
+        </inside>
+      </item>
+    </loot>
+  </monster>

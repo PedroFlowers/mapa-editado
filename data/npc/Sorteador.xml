@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<npc name="Sorteador" script="data/npc/scripts/sorteador.lua" access="3" speed="60">
+    <look type="129" head="114" body="119" legs="114" feet="114" addon="3" know="3"/>
+</npc> 

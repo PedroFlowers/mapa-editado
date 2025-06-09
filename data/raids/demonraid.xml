@@ -1,0 +1,12 @@
+<raid>
+<announce delay="0" message="Hello guys!" />
+<singlespawn delay="5000" name="Demon" x="138" y="45" z="7" />
+<singlespawn delay="5500" name="Demon" x="183" y="58" z="7" />
+<singlespawn delay="6000" name="Demon" x="160" y="39" z="7" />
+
+<areaspawn delay="6500" fromx="138" fromy="54" fromz="7" tox="138" toy="60" toz="7">
+<monster name="Orc Leader" amount="5" />
+<monster name="Orc Warlord" amount="5" />
+</areaspawn>
+
+</raid>

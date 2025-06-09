@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Man in the Cave" species="human" tp="1" nameDescription="Man in the Cave" race="blood" experience="555" speed="230" manacost="0">
+    <health now="485" max="485"/>
+    <look type="128" head="96" body="116" legs="20" feet="116" addons="1" corpse="3128"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="1"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="20"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-0" max="-62"/>
+      <attack name="physical" interval="1000" chance="15" range="7" min="-0" max="-95">
+        <attribute key="shootEffect" value="smallstone"/>
+</attack>
+    </attacks>
+    <defenses armor="17" defense="35"/>
+      <defense name="speed" interval="1000" chance="70" speedchange="280" duration="6000">
+        <attribute key="areaEffect" value="greenshimmer"/>
+</defense>
+      <defense name="light healing" interval="6000" chance="65" min="20" max="50"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <summons max="3">
+      <summon name="monk" interval="5000" chance="20"/>
+    </summons>
+    <voices interval="2000" chance="5">
+      <voice sentence="THE MONKS ARE MINE!"/>
+      <voice sentence="I will rope you up! All of you!!"/>
+    </voices>
+    <loot>
+      <item id="2148" countmax="27" chance1="7479" chancemax="8553"/>-- Gold Coin
+      <item id="2120" countmax="3" chance1="3713" chancemax="5285"/>-- Rope
+      <item id="2691" chance="1000000"/>-- Brown Bread
+      <item id="5913" chance="7966"/>-- Brown Piece of Cloth
+      <item id="7290" chance="8326"/>-- Shard
+      <item id="7463" chance="6326"/>-- Mammoth Fur Cape
+      <item id="7386" chance="7890"/>-- Mercenary Sword
+      <item id="7458" chance="5890"/>-- Fur Cap(Rare)
+    </loot>
+  </monster>

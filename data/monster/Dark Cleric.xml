@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Dark Cleric" species="magic" tp="1" nameDescription="a Dark Cleric" race="blood" experience="150000" speed="300" manacost="0">
+    <health now="150000" max="150000"/>
+    <look type="148" head="96" body="97" legs="96" feet="97" addons="3" corpse="3065"/>
+    <targetchange interval="60000" chance="5"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-3000" max="-3100"/>
+      <attack name="critical hit" interval="9000" chance="5" min="-3500" max="-4000"/>
+      <attack name="sudden death" interval="2500" chance="10" min="-2000" max="-2200"/>
+      <attack name="drunk" interval="6000" chance="40"/>
+      <attack name="speed" interval="2000" chance="20" radius="6" target="0" speedchange="-600" duration="60000"/>
+        <attribute key="areaEffect" value="poison"/>
+    </attacks>
+    <defenses armor="11" defense="12"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="0"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="2000" chance="70">
+      <voice sentence="Your energy is mine."/>
+      <voice sentence="Now your life has come to the end, hahahaha!"/>
+    </voices>
+    <loot>
+      <item id="2160" countmax="5" chance1="33333" chancemax="0"/>
+      <item id="2151" countmax="4" chance1="33333" chancemax="0"/>
+      <item id="2789" countmax="5" chance1="10000" chancemax="0"/>
+      <item id="2167" chance="1818"/>
+      <item id="2436" chance="1818"/>
+      <item id="13566" chance="1000"/>
+      <item id="13563" chance="1000"/>
+      <item id="4863" chance="500"/>
+      <item id="7390" chance="800"/>
+      <item id="3939" chance="100000">
+        <inside>
+          <item id="13552" chance="700"/> --Mind Helmet
+          <item id="2453" chance="700"/> --Arcane Wand
+          <item id="7426" chance="700"/> --Mind Wand
+          <item id="13591" chance="700"/> --Mind Robe
+          <item id="2505" chance="700"/> --Elven Armor
+          <item id="13531" chance="700"/> --Elven Crossbow
+          <item id="2506" chance="700"/> --Elven Helmet
+        </inside>
+      </item>
+    </loot>
+  </monster>

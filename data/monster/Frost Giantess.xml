@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Frost Giantess" nameDescription="a Frost Giantess" race="blood" experience="150" speed="270" manacost="0">
+    <health now="275" max="275"/>
+    <look type="265" head="0" body="0" legs="0" feet="0" corpse="7330"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" skill="50" attack="100" />
+      <attack name="small stone" interval="2000" skill="50" attack="100" />
+      <attack name="haste" interval="2000" chance="100" min="-42" max="-68" /> 
+    </attacks>
+    <defenses armor="30" defense="30">      
+    </defenses>
+    <immunities>      
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="Ymirs Mjalle!"/>
+      <voice sentence="No run so much, must stay fat!"/>
+      <voice sentence="Horre Sjan Flan!"/>
+      <voice sentence="Damned fast food."/>
+      <voice sentence="Come kiss the cook!"/>
+    </voices>
+    <loot>
+      <item id="2148" countmax="30" chance1="33333" chancemax="0"/>
+      <item id="2666" countmax="2" chance1="10000" chancemax="0"/>
+      <item id="2671" countmax="1" chance1="10000" chancemax="0"/>
+      <item id="7441" chance="1000"/>
+      <item id="2406" chance="10000"/>
+      <item id="2510" chance="1000"/>
+      <item id="2513" chance="1000"/>
+      <item id="2209" chance="333"/>
+      <item id="2490" chance="100"/>
+      <item id="2381" chance="10000"/>
+      <item id="7290" chance="333"/>
+      <item id="2129" chance="100"/>
+    </loot>
+  </monster>

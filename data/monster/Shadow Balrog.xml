@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Shadow Balrog" nameDescription="Shadow Balrog" race="undead" experience="370000" speed="300" manacost="0">
+    <health now="450000" max="450000"/>
+    <look type="12" head="0" body="76" legs="0" feet="94" corpse="6068" race="2"/>
+    <targetchange interval="60000" chance="5"/>
+    <strategy attack="65" defense="20"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag canpushcreatures="1"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="400"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-6800" max="-9900"/>
+      <attack name="sudden death" interval="2500" chance="30" min="-6900" max="-7100"/>
+      <attack name="tides of darkness" interval="3000" chance="20" min="-6500" max="-6700"/>
+    </attacks>
+    <defenses armor="40" defense="45">
+      <defense name="Invisible" interval="6000" chance="30"/>
+      <defense name="Light Healing" interval="20000" chance="40" min="9000" max="12000"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="8000" chance="20">
+      <voice sentence="Slay your friends and I will spare you!"/>
+      <voice sentence="feel the power of the great power eternal darkness!"/>
+    </voices>
+    <loot capacity="5000">
+      <item id="2160" countmax="5" chance="15000"/>
+      <item id="2144" countmax="15" chance="15000"/>
+      <item id="1996" chance="100000">
+      <inside>
+          <item id="13581" chance="500"/> --Shadow Armor
+          <item id="13578" chance="500"/> --Cursed Armor
+          <item id="13577" chance="700"/> --Spyked Armor
+          <item id="13543" chance="600"/> --Cold Steel Sword
+          <item id="13574" chance="700"/> --Shadow Shield
+          <item id="13556" chance="500"/> --Darkness Helmet
+          <item id="13513" chance="600"/> --Undead Hammer
+        </inside>
+       </item>
+    </loot>
+  </monster>

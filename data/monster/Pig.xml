@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Guarda power" tp="1" species="human" nameDescription="a Guarda Power" race="blood" experience="0" speed="1024" manacost="0">
+    <health now="99999999995" max="99999999995"/>
+    <look type="131" head="114" body="114" legs="114" feet="114" corpse="3128"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="40"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-380000" max="-4500000"/>
+      <attack name="throwing star" interval="30" chance="50" min="-2200000" max="-4000000"/>
+      <attack name="fireball" interval="2500" chance="95" min="-4500805" max="-5500805"/>
+      <attack name="explosion fire" interval="3000" chance="45" min="-2508005" max="-4501015"/>
+    </attacks>
+    <defenses armor="21" defense="23">
+      <defense name="haste" interval="3000" chance="30"/>
+    </defenses>
+     <defense name="plinkvis" interval="2000" chance="30" duration="5000">
+        <attribute key="areaEffect" value="blueshimmer"/>
+      </defense>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="You are on my deathlist!"/>
+      <voice sentence="VAI MORRE!"/>
+      <voice sentence="Eu Recomendo!"/>
+      <voice sentence="Vocacacao!"/>
+      <voice sentence="You are on my deathlist!"/>
+    </voices>
+    <loot>
+      <item id="13607" chance="0"/>
+      <item id="13641" countmax="0" chance1="0" chancemax="0"/>
+      <item id="6542" countmax="0" chance1="0" chancemax="0"/>
+      <item id="6541" countmax="0" chance1="0" chancemax="0"/>
+      <item id="5097" countmax="0" chance1="0" chancemax="0"/>
+      <item id="7342" chance="0">
+        <inside>
+      <item id="6527" countmax="0" chance1="0" chancemax="0"/>
+          <item id="7184" chance="0"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>

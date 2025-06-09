@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<player name="Account Manager" account="111111" sex="1" lookdir="2" exp="4200" voc="1" level="8" access="0" cap="380" maglevel="0" soul="0" maxdepotitems="1000" lastlogin="0">
+  <spawn x="1000" y="1000" z="7"/>
+  <temple x="1000" y="1000" z="7"/>
+  <health now="190" max="190" food="0"/>
+  <mana now="40" max="40" spent="0"/>
+  <skull redskulltime="0" redskull="0"/>
+  <look type="128" head="0" body="94" legs="126" feet="81" addons="0"/>
+  <skills>
+    <skill skillid="0" level="10" tries="0"/>
+    <skill skillid="1" level="10" tries="0"/>
+    <skill skillid="2" level="10" tries="0"/>
+    <skill skillid="3" level="10" tries="0"/>
+    <skill skillid="4" level="10" tries="0"/>
+    <skill skillid="5" level="10" tries="0"/>
+    <skill skillid="6" level="10" tries="0"/>
+  </skills>
+  <addons/>
+  <deaths/>
+  <spells/>
+  <blessings/>
+  <inventory>
+    <slot slotid="1">
+      <item id="2457"/>
+    </slot>
+    <slot slotid="2">
+      <item id="2173"/>
+    </slot>
+    <slot slotid="3">
+      <item id="1988">
+        <inside>
+          <item id="2190"/>
+          <item id="2182"/>
+          <item id="2456"/>
+          <item id="2455"/>
+          <item id="2120"/>
+          <item id="13690" count="100" charges="100"/>
+        </inside>
+      </item>
+    </slot>
+    <slot slotid="4">
+      <item id="2463"/>
+    </slot>
+    <slot slotid="5">
+      <item id="2509"/>
+    </slot>
+    <slot slotid="6">
+      <item id="2383"/>
+    </slot>
+    <slot slotid="7">
+      <item id="2647"/>
+    </slot>
+    <slot slotid="8">
+      <item id="2643"/>
+    </slot>
+    <slot slotid="10">
+      <item id="2544" count="1"/>
+    </slot>
+  </inventory>
+  <depots>
+    <depot depotid="1">
+      <item id="2590">
+        <inside>
+          <item id="2594">
+            <inside>
+              <item id="2152" count="50"/>
+            </inside>
+          </item>
+        </inside>
+      </item>
+    </depot>
+  </depots>
+  <storage>
+    <data key="10001001" value="8912896"/>
+    <data key="10001002" value="8978432"/>
+    <data key="10001003" value="9043968"/>
+    <data key="10001004" value="9109504"/>
+    <data key="10001005" value="9175040"/>
+    <data key="10001006" value="9240576"/>
+    <data key="10001007" value="9306112"/>
+    <data key="10001008" value="9633792"/>
+    <data key="10001009" value="9699328"/>
+    <data key="10001010" value="9764864"/>
+    <data key="10001011" value="9830400"/>
+    <data key="10001012" value="10158080"/>
+    <data key="10001013" value="10223616"/>
+    <data key="10001014" value="10289152"/>
+    <data key="10001015" value="10354688"/>
+  </storage>
+</player>

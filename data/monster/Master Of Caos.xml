@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Master Of Caos" species="human" nameDescription="a Master Of Caos" race="blood" experience="9800000" speed="278" manacost="0">
+    <health now="10200000" max="10200000"/>
+    <look type="73" head="20" body="30" legs="40" feet="50" corpse="3128"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-55000" max="-62000"/>
+      <attack name="chuva" interval="6000" min="-102000" max="-110000"/>
+      <attack name="sound" interval="4000" min="-90000" max="-102000"/>
+      <attack name="exbolt" interval="3500" min="-860000" max="-95000"/>
+      <attack name="wandzada" interval="2500" min="-75000" max="-85000"/>
+    </attacks>
+    <defenses armor="50" defense="50"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="8000" chance="100">
+      <voice sentence="...?"/>
+    </voices>
+    <loot>
+      <item id="13607" chance="3500"/>
+      <item id="13641" countmax="1" chance1="100" chancemax="0"/>
+      <item id="6527" countmax="4" chance1="10000" chancemax="0"/>
+      <item id="7342" chance="100000">
+        <inside>
+          <item id="13503" chance="2500"/>
+          <item id="13630" chance="2500"/>
+          <item id="13536" chance="3500"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>

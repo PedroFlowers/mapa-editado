@@ -1,0 +1,28 @@
+function onSay(cid, words, param)
+if doPlayerRemoveItem(cid,6527,70) == TRUE then
+container = doPlayerAddItem(cid, 1998, 1)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doAddContainerItem(container, 7366, 100)
+doSendMagicEffect(getPlayerPosition(cid), CONST_ME_MORTAREA)
+else
+doPlayerSendCancel(cid, 'You don\'t have xeeksot points.')
+doSendMagicEffect(getPlayerPosition(cid), CONST_ME_FLAMEAREA)
+end
+end

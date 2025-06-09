@@ -1,0 +1,58 @@
+<raid>
+<announce delay="15" type="22" message="The Minotauros attack carlin help me so many." />
+<singlespawn delay="100" name="the horned fox" x="732" y="603" z="7" />
+<singlespawn delay="100" name="general murius" x="725" y="604" z="7" />
+<singlespawn delay="100" name="minotaur" x="744" y="594" z="7" />
+<singlespawn delay="100" name="minotaur guard" x="725" y="608" z="7" />
+<singlespawn delay="100" name="minotaur mage" x="722" y="601" z="7" />
+<singlespawn delay="100" name="minotaur archer" x="725" y="604" z="7" />
+<singlespawn delay="100" name="minotaur" x="744" y="594" z="7" />
+<singlespawn delay="100" name="minotaur guard" x="725" y="608" z="7" />
+<singlespawn delay="100" name="minotaur mage" x="722" y="601" z="7" />
+<singlespawn delay="100" name="minotaur archer" x="725" y="604" z="7" />
+<singlespawn delay="100" name="minotaur" x="744" y="594" z="7" />
+<singlespawn delay="100" name="minotaur guard" x="725" y="608" z="7" />
+<singlespawn delay="100" name="minotaur mage" x="722" y="601" z="7" />
+<singlespawn delay="100" name="minotaur archer" x="725" y="604" z="7" />
+<singlespawn delay="100" name="minotaur" x="744" y="594" z="7" />
+<singlespawn delay="100" name="minotaur guard" x="725" y="608" z="7" />
+<singlespawn delay="100" name="minotaur mage" x="722" y="601" z="7" />
+<singlespawn delay="100" name="minotaur archer" x="725" y="604" z="7" />
+<singlespawn delay="100" name="minotaur" x="744" y="594" z="7" />
+<singlespawn delay="100" name="minotaur guard" x="725" y="608" z="7" />
+<singlespawn delay="100" name="minotaur mage" x="722" y="601" z="7" />
+<singlespawn delay="100" name="minotaur archer" x="725" y="604" z="7" />
+<singlespawn delay="100" name="minotaur" x="744" y="594" z="7" />
+<singlespawn delay="100" name="minotaur guard" x="725" y="608" z="7" />
+<singlespawn delay="100" name="minotaur mage" x="722" y="601" z="7" />
+<singlespawn delay="100" name="minotaur archer" x="725" y="604" z="7" />
+<singlespawn delay="100" name="minotaur" x="744" y="594" z="7" />
+<singlespawn delay="100" name="minotaur guard" x="725" y="608" z="7" />
+<singlespawn delay="100" name="minotaur mage" x="722" y="601" z="7" />
+<singlespawn delay="100" name="minotaur archer" x="725" y="604" z="7" />
+<singlespawn delay="100" name="minotaur" x="685" y="612" z="7" />
+<singlespawn delay="100" name="minotaur guard" x="690" y="607" z="7" />
+<singlespawn delay="100" name="minotaur mage" x="683" y="608" z="7" />
+<singlespawn delay="100" name="minotaur archer" x="674" y="608" z="7" />
+<singlespawn delay="100" name="minotaur" x="685" y="612" z="7" />
+<singlespawn delay="100" name="minotaur guard" x="690" y="607" z="7" />
+<singlespawn delay="100" name="minotaur mage" x="683" y="608" z="7" />
+<singlespawn delay="100" name="minotaur archer" x="674" y="608" z="7" />
+<singlespawn delay="100" name="minotaur" x="685" y="612" z="7" />
+<singlespawn delay="100" name="minotaur guard" x="690" y="607" z="7" />
+<singlespawn delay="100" name="minotaur mage" x="683" y="608" z="7" />
+<singlespawn delay="100" name="minotaur archer" x="674" y="608" z="7" />
+<singlespawn delay="100" name="minotaur" x="685" y="612" z="7" />
+<singlespawn delay="100" name="minotaur guard" x="690" y="607" z="7" />
+<singlespawn delay="100" name="minotaur mage" x="683" y="608" z="7" />
+<singlespawn delay="100" name="minotaur archer" x="674" y="608" z="7" />
+<singlespawn delay="100" name="minotaur" x="685" y="612" z="7" />
+<singlespawn delay="100" name="minotaur guard" x="690" y="607" z="7" />
+<singlespawn delay="100" name="minotaur mage" x="683" y="608" z="7" />
+<singlespawn delay="100" name="minotaur archer" x="674" y="608" z="7" />
+
+<areaspawn delay="100" fromx="734" fromy="603" fromz="7" tox="744" toy="603" toz="7">
+<monster name="minotaur" amount="25" />
+</areaspawn>
+
+</raid>

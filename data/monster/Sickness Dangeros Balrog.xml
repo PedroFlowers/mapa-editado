@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Sickness Dangeros Balrog" nameDescription="The Sickness Dangeros Balrog" race="undead" experience="1588500" speed="500" manacost="290">
+    <health now="690000" max="690000"/>
+    <look type="12" head="114" body="94" legs="99" feet="86" corpse="6068"/>
+    <targetchange interval="60000" chance="5"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag canpushcreatures="1"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="400"/>
+    </flags>
+    <attacks>
+      <attack name="poison" interval="1000" chance="20" range="7" min="-6755" max="-7110">
+        <attribute key="shootEffect" value="poison"/>
+      </attack>
+      <attack name="melee" interval="2000" min="-8700" max="-9900"/>
+      <attack name="ultimate poison" interval="3000" chance="50" min="-9900" max="-11500"/>
+      <attack name="master dark" interval="4000" chance="50" min="-9900" max="-11500"/>
+      <attack name="ultimate explosion" interval="6000" chance="40" min="-8900" max="-9500"/>
+      <attack name="mas mort" interval="6000" chance="70" min="-5900" max="-6500"/>
+      <attack name="hydra poisonwave" interval="6000" min="-7720" max="-8220" chance="50"/>
+      <attack name="sudden death" interval="4000" chance="80" min="-7970" max="-8195"/>
+      <attack name="dragon firewave" interval="6000" chance="60" min="-8980" max="-9270"/>
+      <attack name="dragon fireball" interval="4000" chance="60" min="-168260" max="-189945"/>
+    </attacks>
+    <defenses armor="44" defense="39"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="0"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="1000" chance="50">
+      <voice sentence="Venom!!!"/>
+      <voice sentence="Shadow!!!"/>
+      <voice sentence="Mountain!!!"/>
+      <voice sentence="Energy!!!"/>
+      <voice sentence="Fire!!!"/>
+    </voices>
+    <loot>
+      <item id="2152" countmax="100" chance1="100000" chancemax="0"/>
+      <item id="2496" chance="700"/>
+      <item id="2505" chance="700"/>
+      <item id="2188" chance="700"/>
+      <item id="7460" chance="700"/>
+      <item id="6558" chance="1818"/>
+      <item id="6558" chance="1818"/>
+      <item id="6558" chance="1818"/>
+      <item id="2652" chance="500"/>
+      <item id="7440" chance="4000"/>
+      <item id="5943" chance="1818"/>
+      <item id="6558" chance="1818"/>
+      <item id="1987" chance="100000" />
+      <inside>
+          <item id="5943" chance="1818"/>
+          <item id="5943" chance="1818"/>
+          <item id="6558" chance="1818"/>
+        </inside>
+    </loot>
+  </monster>

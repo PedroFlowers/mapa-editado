@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<weapons>
+<!-- Rods -->
+<wand id="2182" range="4" lvl="7" mana="2" enabled="1" exhaustion="0" script="snakebite rod.lua"><vocation id="2"/><vocation id="6"/></wand>
+<wand id="2186" range="3" lvl="13" mana="3" enabled="1" exhaustion="0" script="moonlight rod.lua"><vocation id="2"/><vocation id="6"/></wand>
+<wand id="2185" range="2" lvl="19" mana="5" enabled="1" exhaustion="0" script="volcanic rod.lua"><vocation id="2"/><vocation id="6"/></wand>
+<wand id="2181" range="1" lvl="26" mana="8" enabled="1" exhaustion="0" script="quagmire rod.lua"><vocation id="2"/><vocation id="6"/></wand>
+<wand id="2183" range="3" lvl="33" mana="13" enabled="1" exhaustion="0" script="tempest rod.lua"><vocation id="2"/><vocation id="6"/></wand>
+
+<!-- Wands -->
+<wand id="2190" range="4" lvl="8" mana="2" enabled="1" exhaustion="0" script="wand of vortex.lua"><vocation id="1"/><vocation id="5"/></wand>
+<wand id="2191" range="3" lvl="13" mana="3" enabled="1" exhaustion="0" script="wand of dragonbreath.lua"><vocation id="1"/><vocation id="5"/></wand>
+<wand id="2188" range="2" lvl="19" mana="5" enabled="1" exhaustion="0" script="wand of plague.lua"><vocation id="1"/><vocation id="5"/></wand>
+<wand id="2189" range="1" lvl="26" mana="8" enabled="1" exhaustion="0" script="wand of cosmic energy.lua"><vocation id="1"/><vocation id="5"/></wand>
+<wand id="2187" range="3" lvl="33" mana="13" enabled="1" exhaustion="0" script="wand of inferno.lua"><vocation id="1"/><vocation id="5"/></wand>
+<wand id="13527" range="10" lvl="250" mana="150" enabled="1" exhaustion="0" script="phoenix wand.lua"><vocation id="2"/><vocation id="1"/><vocation id="6"/><vocation id="5"/><vocation id="9"/><vocation id="10"/><vocation id="13"/><vocation id="14"/></wand>
+<wand id="7426" range="10" lvl="200" mana="100" enabled="1" exhaustion="0" script="mind wand.lua"><vocation id="2"/><vocation id="1"/><vocation id="6"/><vocation id="5"/><vocation id="9"/><vocation id="10"/><vocation id="13"/><vocation id="14"/></wand>
+<wand id="2453" range="10" lvl="100" mana="50" enabled="1" exhaustion="0" script="arcane wand.lua"><vocation id="2"/><vocation id="1"/><vocation id="6"/><vocation id="5"/><vocation id="9"/><vocation id="10"/><vocation id="13"/><vocation id="14"/></wand>
+<wand id="13520" range="10" lvl="250" mana="200" enabled="1" exhaustion="0" script="magic plague wand.lua"><vocation id="2"/><vocation id="1"/><vocation id="6"/><vocation id="5"/><vocation id="9"/><vocation id="10"/><vocation id="13"/></wand>
+<wand id="13523" range="10" lvl="8" mana="550" enabled="1" exhaustion="0" script="merlian staff.lua"><vocation id="1"/><vocation id="2"/><vocation id="9"/><vocation id="10"/><vocation id="14"/><vocation id="13"/></wand>
+<wand id="13525" range="10" lvl="500" mana="600" enabled="1" exhaustion="0" script="blue balrog staff.lua"><vocation id="1"/><vocation id="2"/><vocation id="9"/><vocation id="10"/><vocation id="14"/><vocation id="13"/></wand>
+<wand id="13526" range="10" lvl="350" mana="600" enabled="1" exhaustion="0" script="venom staff.lua"><vocation id="1"/><vocation id="2"/><vocation id="9"/><vocation id="10"/><vocation id="14"/><vocation id="13"/></wand>
+<wand id="13524" range="10" lvl="350" mana="600" enabled="1" exhaustion="0" script="golden staff.lua"><vocation id="1"/><vocation id="2"/><vocation id="9"/><vocation id="10"/><vocation id="14"/><vocation id="13"/></wand>
+<wand id="13529" range="10" lvl="350" mana="600" enabled="1" exhaustion="0" script="magic pink staff.lua"><vocation id="1"/><vocation id="2"/><vocation id="9"/><vocation id="10"/><vocation id="14"/><vocation id="13"/></wand>
+
+
+
+
+<!-- Distance weapons -->
+<distance id="7367" range="6" enabled="1" exhaustion="0" hitchance="80" ammo="removecount" script="spear.lua"></distance>
+<distance id="2545" range="6" enabled="1" exhaustion="0" hitchance="80" script="poison arrow.lua"></distance>
+<distance id="2546" range="6" enabled="1" exhaustion="0" hitchance="80" script="explosive arrow.lua"></distance>
+<distance id="7365" range="10" enabled="1" exhaustion="0" hitchance="100" ammo="removecount" script="phantom bolt.lua"><vocation id="3"/><vocation id="7"/><vocation id="11"/><vocation id="15"/></distance>
+<distance id="13687" range="10" enabled="1" exhaustion="0" hitchance="80" ammo="removecount" script="bullet.lua"><vocation id="3"/><vocation id="7"/><vocation id="11"/><vocation id="15"/></distance>
+<distance id="2543" range="10" enabled="1" exhaustion="0" hitchance="100" ammo="removecount" script="bolt.lua"><vocation id="3"/><vocation id="7"/><vocation id="11"/><vocation id="15"/></distance>
+<distance id="6529" range="10" enabled="1" exhaustion="0" hitchance="100" ammo="removecount" script="infernal bolt.lua"><vocation id="3"/><vocation id="7"/><vocation id="11"/><vocation id="15"/></distance>
+<distance id="13607" range="10" lvl="8" enabled="1" exhaustion="0" hitchance="100" ammo="removecount" script="supreme shuriken.lua"><vocation id="3"/><vocation id="7"/><vocation id="11"/><vocation id="15"/></distance>
+<distance id="2352" range="10" lvl="8" enabled="1" exhaustion="0" hitchance="100" ammo="removecount" script="elemental bolt.lua"><vocation id="3"/><vocation id="7"/><vocation id="11"/><vocation id="15"/></distance>
+<distance id="3965" range="10" lvl="8" enabled="1" exhaustion="0" hitchance="100" ammo="removecount" script="elemental bolts.lua"><vocation id="3"/><vocation id="7"/><vocation id="11"/><vocation id="15"/></distance>
+
+
+<!-- weapons -->
+<melee id="2393" range="1" enabled="1" exhaustion="0" hitchance="100" script="giant sword.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="2390" range="1" lvl="8" enabled="1" exhaustion="0" hitchance="100" script="magic longsword.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13608" range="1" enabled="1" exhaustion="0" hitchance="70" script="iron gloves.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13540" range="1" enabled="1" exhaustion="0" hitchance="70" script="jelical sword.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13522" range="1" enabled="1" exhaustion="0" hitchance="70" script="hawk avenger's hammer.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13518" range="1" enabled="1" exhaustion="0" hitchance="70" script="hammer of hercules.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="7390" range="1" enabled="1" exhaustion="0" hitchance="70" script="justice seeker.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="7392" range="1" enabled="1" exhaustion="0" hitchance="70" script="orcish maul.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13508" range="1" lvl="8" enabled="1" exhaustion="0" hitchance="70" script="gladiator hammer.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="2414" range="1" enabled="1" exhaustion="0" hitchance="100" script="dragon lance.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13541" range="1" enabled="1" exhaustion="0" hitchance="70" script="spirit of belkor.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13515" range="1" enabled="1" exhaustion="0" hitchance="70" script="hammer of belzebu.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13514" range="1" enabled="1" exhaustion="0" hitchance="70" script="estrundilion hammer.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13513" range="1" enabled="1" exhaustion="0" hitchance="70" script="undead hammer.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13512" range="1" enabled="1" exhaustion="0" hitchance="70" script="greatsmith hammer.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="7405" range="1" enabled="1" exhaustion="0" hitchance="70" script="hammer of thor.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13519" range="1" enabled="1" exhaustion="0" hitchance="70" script="hammer of thor.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13509" range="1" enabled="1" exhaustion="0" hitchance="70" script="power axe.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="2415" range="1" enabled="1" exhaustion="0" hitchance="70" script="great axe.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="2408" range="1" enabled="1" exhaustion="0" hitchance="70" script="warlord sword.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13511" range="1" enabled="1" exhaustion="0" hitchance="70" script="bloodhunter axe.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13548" range="1" enabled="1" exhaustion="0" hitchance="70" script="thundrillion sword.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13506" range="1" enabled="1" exhaustion="0" hitchance="70" script="havok'axe.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13505" range="1" enabled="1" exhaustion="0" hitchance="70" script="master piece axe.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/></melee>
+<melee id="13544" range="1" enabled="1" exhaustion="0" hitchance="70" script="sword of odin.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13538" range="1" enabled="1" exhaustion="0" hitchance="70" script="spirit seeker.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13510" range="1" enabled="1" exhaustion="0" hitchance="70" script="magic fire axe.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13504" range="1" enabled="1" exhaustion="0" hitchance="70" script="masked marauder axe.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13545" range="1" enabled="1" exhaustion="0" hitchance="70" script="venom magic sword.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="2400" range="1" enabled="1" exhaustion="0" hitchance="70" script="magic sword.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="2421" range="1" enabled="1" exhaustion="0" hitchance="70" script="thunder hammer.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="2431" range="1" enabled="1" exhaustion="0" hitchance="70" script="stonecutter axe.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13501" range="1" enabled="1" exhaustion="0" hitchance="70" script="adamantiun axe.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13507" range="1" enabled="1" exhaustion="0" hitchance="70" script="thordian axe.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="13547" range="1" enabled="1" exhaustion="0" hitchance="70" script="sword of teseu.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+<melee id="7390" range="1" lvl="8" enabled="1" exhaustion="0" hitchance="100" ammo="removecount" script="justice seeker.lua"><vocation id="12"/><vocation id="8"/><vocation id="4"/><vocation id="16"/></melee>
+</weapons>

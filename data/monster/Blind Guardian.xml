@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Blind Guardian" species="human" nameDescription="a Blind Guardian" race="blood" experience="90000" speed="400" manacost="0">
+    <health now="200000" max="200000"/>
+    <look type="154" head="59" body="38" legs="95" feet="115" addons="2" corpse="3128"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-6000" max="-7000"/>
+      <attack name="energy ball" interval="3000" chance="30" min="-2000" max="-2200"/>
+      <attack name="great energy beam" interval="3500" chance="40" min="-3000" max="-3200"/>
+      <attack name="energy exori" interval="4000" chance="60" min="-2000" max="-2200"/>
+      <attack name="mas mort" interval="4500" chance="20" min="-1000" max="-2200"/>
+    </attacks>
+    <defenses armor="40" defense="45">
+      <defense name="Invisible" interval="8000" chance="30"/>
+      <defense name="Light Healing" interval="20000" chance="40" min="90" max="100"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="6000" chance="5">
+      <voice sentence="Let's have a fight!"/>
+    </voices>
+    <loot>
+      <item id="13555" chance="800"/> --Gladiator Helmet
+      <item id="13584" chance="800"/> --Gladiator Armor
+      <item id="1949" chance="1200"/>
+      <item id="1990" chance="10000">
+        <inside>
+          <item id="13522" chance="500"/> --Hawk Avenger's Hammer
+          <item id="13581" chance="500"/> --Shadow Armor
+          <item id="13683" chance="500"/> --Spirit Elemental Amulet
+          <item id="13578" chance="500"/> --Cursed Armor
+        </inside>
+      </item>
+    </loot>
+  </monster>
+
+

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<npc name="Alan o Alquimista" script="data/npc/scripts/alqui.lua" access="5" lookdir="1" autowalk="25">
+<look type="133" head="0" body="0" legs="0" feet="0" addons="3"/>
+</npc>

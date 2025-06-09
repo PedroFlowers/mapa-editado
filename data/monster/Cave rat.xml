@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Demonio Vermelho" nameDescription="a Demonio Vermelho" race="undead" experience="9900900000" speed="4000" manacost="0">
+    <health now="907777775" max="907777775"/>
+    <look type="12" head="94" body="114" legs="94" feet="94" corpse="6068" race="2"/>
+    <targetchange interval="60000" chance="5"/>
+    <strategy attack="65" defense="20"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag canpushcreatures="1"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="400"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="200" min="-1800000" max="-2600000"/>
+      <attack name="sudden death" interval="2500" chance="30" min="-30000000" max="-34000000"/>
+      <attack name="tides of darkness" interval="3000" chance="20" min="-2200000" max="-2600000"/>
+      <attack name="tides of darkness" interval="2000" chance="20" min="-2200000" max="-2600000"/>
+    </attacks>
+    <defenses armor="40" defense="45">
+      <defense name="Invisible" interval="6000" chance="30"/>
+      <defense name="Light Healing" interval="20000" chance="40" min="15000" max="20000"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="8000" chance="20">
+      <voice sentence="Suck My Power!"/>
+      <voice sentence="Fucking Noob!"/>
+      <voice sentence="Dead Nb!"/>
+      <voice sentence="Rating Noob!"/>
+      <voice sentence="Sinta Isso!"/>
+    </voices>
+    <loot>
+      <item id="13607" chance="3500"/>
+      <item id="13641" countmax="6" chance1="10000" chancemax="0"/>
+      <item id="5097" countmax="4" chance1="10000" chancemax="0"/>
+      <item id="7342" chance="100000">
+        <inside>
+          <item id="13503" chance="2500"/>
+          <item id="13630" chance="2500"/>
+          <item id="7184" chance="3500"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>

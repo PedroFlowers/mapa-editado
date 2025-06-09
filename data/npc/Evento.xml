@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<npc name="Evento" script="data/npc/scripts/evento.lua" access="3" lookdir="3">
+	<health now="1" max="1"/>
+	<look type="137" head="114" body="86" legs="114" feet="86" addons="3" corpse="6080"/>
+</npc>

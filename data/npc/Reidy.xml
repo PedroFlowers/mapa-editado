@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<npc name="Reidy" script="data/npc/scripts/blood.lua" access="5" speed="1000" lookdir="1" autowalk="25">
+ <look type="143" head="114" body="78" legs="76" feet="115" addons="3"/>
+</npc>

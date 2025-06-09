@@ -1,0 +1,9 @@
+<raid>
+<announce delay="15" type="22" message="Our world is threatened with destruction of a portal is opened and left him Morgaroth is on the island of events." />
+<singlespawn delay="100" name="morgaroth" x="615" y="356" z="7" />
+
+<areaspawn delay="100" fromx="616" fromy="360" fromz="7" tox="634" toy="360" toz="7">
+<monster name="demon" amount="8" />
+</areaspawn>
+
+</raid>

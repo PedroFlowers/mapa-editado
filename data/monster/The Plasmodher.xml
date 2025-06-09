@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="The Plasmodher" species="poison"  nameDescription="a the plasmodher" race="venom" experience="70000" speed="200" manacost="0">
+    <health now="150000" max="150000"/>
+    <look type="19" head="20" body="30" legs="40" feet="50" corpse="1496"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-1127" max="-1275"/>
+      <attack name="poison ball" interval="3000" min="-4300" max="-4800" chance="30"/>
+    </attacks>
+    <defenses armor="4" defense="5"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="0"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <summons max="4">
+      <summon name="Slime" interval="100000" chance="5"/>
+    </summons>
+    <voices interval="2000" chance="5">
+      <voice sentence="Blubb"/>
+    </voices>
+  </monster>

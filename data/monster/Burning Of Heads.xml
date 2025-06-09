@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Tutti Donates" species="human" nameDescription="a Donates" race="human" experience="12500000" speed="1000" manacost="0">
+    <health now="10600000" max="10600000"/>
+    <look type="256" head="114" body="114" legs="114" feet="114" corpse="3128"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="1"/>
+      <flag pushable="1"/>
+      <flag canpushitems="0"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="85000"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-304300" max="-404300"/>
+      <attack name="vis" interval="6000" min="-304300" max="-404300"/>
+      <attack name="meteor" interval="40" min="-304300" max="-404300"/>
+      <attack name="firer" interval="3500" min="-304300" max="-404300"/>
+    </attacks>
+    <defenses armor="35" defense="40"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <loot>
+      <item id="5097" countmax="20" chance1="100000" chancemax="0"/>
+      <item id="6527" countmax="50" chance1="100000" chancemax="0"/>
+      <item id="3940" chance="100000">
+        <inside>
+          <item id="13630" chance="1500"/>             
+          <item id="13641" countmax="10" chance1="100000" chancemax="0"/>
+          <item id="7184" chance="9000"/>
+          <item id="13685" countmax="100" chance1="100000" chancemax="0"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>

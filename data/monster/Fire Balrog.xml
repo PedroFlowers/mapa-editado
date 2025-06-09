@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Fire Balrog" nameDescription="a Fire Balrog" tp="1" race="fire" species="fire" experience="320000" speed="300" manacost="20000">
+    <health now="450000" max="450000"/>
+    <look type="12" head="0" body="112" legs="0" feet="94" corpse="6068" race="2"/>
+    <targetchange interval="60000" chance="5"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="40"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-3300" max="-3500"/>
+      <attack name="balrog fireball" interval="2500" chance="60" min="-6900" max="-7100"/>
+      <attack name="explosion fire" interval="3000" chance="70" min="-6300" max="-6600"/>
+      <attack name="dragon firewave" interval="3500" chance="50" min="-7100" max="-7300"/>
+      <attack name="dragon firebomb" interval="4000" chance="60" min="-20" max="-20"/>
+    </attacks>
+    <defenses armor="40" defense="45">
+      <defense name="haste" interval="4500" chance="100"/>
+      <defense name="Light Healing" interval="18000" chance="60" min="7000" max="11000"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="6000" chance="10">
+      <voice sentence="burn on the bottom of hell, human!"/>
+      <voice sentence="burn!"/>
+    </voices>
+    <loot>
+      <item id="2160" countmax="5" chance1="100000" chancemax="0"/>
+      <item id="2147" countmax="15" chance1="100000" chancemax="0"/>
+      <item id="5468" chance="2500"/> 
+      <item id="2353" chance="2500"/>     
+      <item id="1993" chance="100000">
+      <inside>
+          <item id="13550" chance="500"/> --Phoenix Helmet
+          <item id="13546" chance="600"/> --Alabarda Of Fire
+          <item id="13565" chance="700"/> --Balrog Shield
+          <item id="13527" chance="700"/> --Phoenix Wand
+          <item id="13572" chance="700"/> --Phoenix Shield
+          <item id="13511" chance="700"/> --Magma Axe
+         </inside>
+        </item>
+    </loot>
+  </monster>
+

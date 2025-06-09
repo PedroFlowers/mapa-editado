@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<npc name="Capitain Jack" script="data/npc/scripts/boat_Infernal Island.lua" access="3" lookdir="3">
+	<health now="1" max="1"/>
+	<look type="96" head="0" body="0" legs="0" feet="0" corpse="6080"/>
+</npc>

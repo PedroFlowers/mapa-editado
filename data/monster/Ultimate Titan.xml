@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Ultimate Titan" tp="1" species="human" nameDescription="a Ultimate Titan" race="blood" experience="99000900000" speed="1924" manacost="0">
+    <health now="959999999999995" max="959999999999996"/>
+    <look type="265" head="0" body="0" legs="0" feet="0" corpse="7330"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="40"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-980000000" max="-9800000000"/>
+      <attack name="throwing star" interval="30" chance="50" min="-920000000" max="-97000000000"/>
+      <attack name="fireball" interval="2500" chance="95" min="-900000805" max="-90003000115"/>
+      <attack name="explosion fire" interval="3000" chance="45" min="-900000805" max="-900000115"/>
+    </attacks>
+    <defenses armor="21" defense="23">
+      <defense name="haste" interval="3000" chance="30"/>
+    </defenses>
+     <defense name="plinkvis" interval="2000" chance="30" duration="5000">
+        <attribute key="areaEffect" value="blueshimmer"/>
+      </defense>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <voices interval="2000" chance="5">
+      <voice sentence="You are on my deathlist!"/>
+      <voice sentence="VAI MORRE!"/>
+      <voice sentence="Eu Recomendo!"/>
+      <voice sentence="Vocacacao!"/>
+      <voice sentence="You are on my deathlist!"/>
+    </voices>
+    <loot>
+      <item id="5097" countmax="100" chance1="20000" chancemax="0"/>
+      <item id="5097" countmax="100" chance1="20000" chancemax="0"/>
+      <item id="6104" chance="100000">
+        <inside>
+          <item id="2501" chance="2500"/>
+          <item id="2503" chance="2500"/>
+          <item id="2504" chance="2500"/>
+          <item id="2640" chance="2500"/>
+          <item id="2346" chance="2500"/>
+          <item id="2345" chance="2500"/>
+          <item id="2344" chance="2500"/>
+          <item id="6103" chance="2000"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>

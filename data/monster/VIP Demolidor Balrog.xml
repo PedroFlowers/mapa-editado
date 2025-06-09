@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="VIP Demolidor Balrog" nameDescription="VIP Demolidor Balrog" race="undead" experience="13000000" speed="800" manacost="0">
+    <health now="1010000" max="1010000"/>
+    <look type="12" head="94" body="114" legs="94" feet="94" corpse="6068" race="2"/>
+    <targetchange interval="60000" chance="5"/>
+    <strategy attack="65" defense="20"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag canpushcreatures="1"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="400"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-18000" max="-26000"/>
+      <attack name="sudden death" interval="2500" chance="30" min="-30000" max="-34000"/>
+      <attack name="tides of darkness" interval="3000" chance="20" min="-22000" max="-26000"/>
+    </attacks>
+    <defenses armor="40" defense="45">
+      <defense name="Invisible" interval="6000" chance="30"/>
+      <defense name="Light Healing" interval="20000" chance="40" min="15000" max="20000"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="8000" chance="20">
+      <voice sentence="Suck My Power!"/>
+      <voice sentence="Fucking Noob!"/>
+    </voices>
+    <loot capacity="5000">
+      <item id="13685" countmax="60" chance="9000"/>
+      <item id="1996" chance="100000">
+      <inside>
+          <item id="13559" chance="5000"/>
+          <item id="13586" chance="5000"/>
+          <item id="13600" chance="7000"/>
+          <item id="13561" chance="6000"/>
+          <item id="13608" chance="7000"/>
+          <item id="13523" chance="5000"/>
+          <item id="13532" chance="6000"/>
+        </inside>
+       </item>
+    </loot>
+  </monster>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Guarda Titan" nameDescription="a Guarda Titan" race="blood" species="hard" experience="0" speed="1270" manacost="0">
+    <health now="959999999999995" max="959999999999995"/>
+    <look type="265" head="0" body="0" legs="0" feet="0" corpse="7330"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-9700000000000" max="-9900000000000"/>
+      <attack name="large rock" interval="300" chance="30" min="-9700000000000" max="-9900000000000"/>
+    </attacks>
+    <defenses armor="44" defense="42">
+      <defense name="haste" interval="5000" chance="100"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="0"/>
+    </immunities>
+    <summons max="5">
+      <summon name="Deer" interval="12000" chance="50"/>
+      <summon name="Wyvern" interval="12000" chance="50"/>
+    </summons>
+    <voices interval="2000" chance="5">
+      <voice sentence="Chrush the intruders!"/>
+      <voice sentence="You'r so little!"/>
+      <voice sentence="Human flesh - so delicious!"/>
+      <voice sentence="Eu Vo Te Mata FDPTA!"/>
+      <voice sentence="Cara de Taca!"/>
+      <voice sentence="Vem para vc ver oq acontece com nbs como vc!"/>
+      <voice sentence="EU SOU GUARDA DA DO OLYMPUS"/>
+      <voice sentence="!Duvida!"/>
+    </voices>
+    <loot>
+      <item id="13607" chance="0"/>
+      <item id="13641" countmax="6" chance1="0" chancemax="0"/>
+      <item id="5097" countmax="4" chance1="0" chancemax="0"/>
+      <item id="7342" chance="100000">
+        <inside>
+          <item id="13503" chance="0"/>
+          <item id="13630" chance="0"/>
+          <item id="7184" chance="0"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>

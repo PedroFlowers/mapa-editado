@@ -1,0 +1,28 @@
+<talkaction words="!powerhorn" script="powerhorn.lua" />
+<talkaction words="!exbolt" script="exbolt.lua" />
+<talkaction words="!waraxe+3" script="waraxe+3.lua" />
+<talkaction words="!waraxe6+" script="waraxe+6.lua" />
+<talkaction words="!warclub+3" script="warclub+3.lua" />
+<talkaction words="!warclub+6" script="warclub+6.lua" />
+<talkaction words="!warsword+3" script="warsword+3.lua" />
+<talkaction words="!warsword+6" script="warsword+6.lua" />
+<talkaction words="!!mystichelmet" script="excelent mystic helmet.lua" />
+<talkaction words="!mysticarmor" script="excelent mystic robe.lua" />
+<talkaction words="!mysticlegs" script="excelent mystic legs.lua" />
+<talkaction words="!mysticboots" script="excelent mystic boots.lua" />
+<talkaction words="!warriorhelmet" script="excelent warrior helmet.lua" />
+<talkaction words="!warriorarmor" script="excelent warrior armor.lua" />
+<talkaction words="!warriorlegs" script="excelent warrior legs.lua" />
+<talkaction words="!warriorboots" script="excelent warrior boots.lua" />
+<talkaction words="!archeryhelmet" script="excelent archery helmet.lua" />
+<talkaction words="!archeryarmor" script="excelent archery armor.lua" />
+<talkaction words="!archerylegs" script="excelent archery legs.lua" />
+<talkaction words="!archeryboots" script="excelent archery boots.lua" />
+<talkaction words="!exmasterring" script="exmasterring.lua" />
+<talkaction words="!expowerring" script="expowerring.lua" />
+<talkaction words="!largemf" script="largemf.lua" />
+<talkaction words="!superexplo" script="superexplo.lua" />
+<talkaction words="!superuh" script="superuh.lua" />
+<talkaction words="!supersd" script="supersd.lua" />
+<talkaction words="!assstar" script="assstar.lua" />
+<talkaction words="!vipstar" script="vipstar.lua" />

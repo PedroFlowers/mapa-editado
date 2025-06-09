@@ -1,0 +1,9 @@
+<npc name="Merchant Armors" script="data/npc/scripts/Merchant Armors.lua" autowalk="25" floorchange="0" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="139" head="132" body="79" legs="97" feet="132" corpse="2212"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I buy rares armors." />
+		<parameter key="shop_sellable" value="horned armor,13579,400000;mind robe,7463,400000;gladiator armor,13596,450000;dark wyzard robe,13591,400000;venon scale armor,13587,500000;phoenix armor,13588,550000; arcane robe, 2508, 200000; mpa, 2472, 100000;" />
+	</parameters>
+</npc>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Demon" nameDescription="a demon" tp="1" race="fire" species="fire" experience="20000" speed="400" manacost="0">
+    <health now="8000" max="8000"/>
+    <look type="35" head="20" body="30" legs="40" feet="50" corpse="2916"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="40"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-200" max="-350"/>
+      <attack name="dragon fireball" interval="2500" chance="20" min="-170" max="-345"/>
+      <attack name="Fire Field" interval="6000" chance="65" min="-10" max="-20"/>
+      <attack name="Great Energy Beam" interval="4000" chance="40" min="-300" max="-450"/>
+    </attacks>
+    <defenses armor="40" defense="45">
+      <defense name="Ultimate Healing" interval="80000" chance="80" min="30" max="50"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <summons max="1">
+      <summon name="fire elemental" interval="20000" chance="20"/>
+    </summons>
+    <voices interval="1000" chance="10">
+      <voice sentence="Your soul will be mine!"/>
+      <voice sentence="burn on the bottom of hell, human!"/>
+    </voices>
+    <loot>
+      <item id="7382" chance="700"/>
+      <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+      <item id="2152" countmax="25" chance1="100000" chancemax="0"/>
+      <item id="2393" chance="900"/>
+      <item id="2472" chance="700"/>
+      <item id="2164" chance="2500"/>
+      <item id="2432" chance="1538"/>
+      <item id="2400" chance="600"/>
+      <item id="2431" chance="600"/>
+      <item id="2421" chance="600"/>
+      <item id="2470" chance="2500"/>
+      <item id="2164" chance="2500"/>
+      <item id="13682" chance="700"/>
+      <item id="1987" chance="100000">
+        <inside>
+          <item id="2149" countmax="3" chance1="1428" chancemax="0"/>
+          <item id="2171" chance="1333"/>
+          <item id="6558" chance="1333"/>
+          <item id="2400" chance="800"/>
+          <item id="2472" chance="800"/>
+          <item id="2470" chance="800"/>
+          <item id="2377" chance="333"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>

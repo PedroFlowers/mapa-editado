@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Barbarian Brutetamer" tp="1" nameDescription="a Brutetamer" race="blood" experience="115" speed="270" manacost="0">
+    <health now="145" max="145"/>
+    <look type="264" head="0" body="0" legs="0" feet="0" corpse="6080"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+ <attack name="snowball" interval="5000" chance="80" range="7" min="-0" max="-100"/>
+    </attacks>
+    <defenses armor="30" defense="30">
+      <defense name="light healing" interval="5000" chance="80" min="40" max="85"/>
+    </defenses>
+    <immunities>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity invisible="0"/>
+    </immunities>
+
+<summons max="3">
+  <summon name="War Wolf" interval="6200" chance="40" max="3" /> 
+  </summons>
+    <voices interval="2000" chance="5">
+      <voice sentence="To me, creatures of the wild!"/>
+    </voices>
+    <loot>
+      <item id="2148" countmax="14" chance1="33333" chancemax="0"/>
+      <item id="2686" countmax="2" chance1="10000" chancemax="0"/>
+      <item id="2464" chance="3333"/>
+      <item id="2401" chance="10000"/>
+      <item id="2671" countmax="3" chance1="2500" chancemax="0"/>
+      <item id="7343" chance="3333"/>
+      <item id="7463" chance="333"/>
+      <item id="3965" chance="333"/>
+      <item id="7457" chance="333"/>
+      <item id="7379" chance="333"/>
+      <item id="7464" chance="100"/>
+    </loot>
+  </monster>

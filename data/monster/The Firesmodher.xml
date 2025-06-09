@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="The Firesmodher" nameDescription="a the firesmodher" species="fire" race="blood" experience="70000" speed="300" manacost="690">
+    <health now="100000" max="100000"/>
+    <look type="49" head="20" body="30" legs="40" feet="50" corpse="1492"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="1"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="1"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-1525" max="-1590"/>
+      <attack name="fireball" interval="2500" chance="95" min="-2805" max="-3115"/>
+      <attack name="explosion fire" interval="3000" chance="45" min="-2805" max="-4115"/>
+    </attacks>
+    <defenses armor="15" defense="15"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="1"/>
+    </immunities>
+  </monster>

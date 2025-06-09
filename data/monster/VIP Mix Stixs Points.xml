@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="VIP Xeek sot" species="poison" nameDescription="a VIP Xeek sot" race="human" experience="0" speed="300" manacost="0">
+    <health now="8200000" max="8200000"/>
+    <look type="144" head="114" body="91" legs="114" feet="91" addons="3" corpse="3128"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="1"/>
+      <flag pushable="1"/>
+      <flag canpushitems="0"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="10"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="1500" chance="100" min="-45000" max="-65000"/>
+      <attack name="exbolt" interval="4000" chance="100" min="-101000" max="-135000"/>
+    </attacks>
+    <defenses armor="50" defense="50"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <loot>
+      <item id="6527" countmax="12" chance1="9500" chancemax="0"/>
+    </loot>
+  </monster>

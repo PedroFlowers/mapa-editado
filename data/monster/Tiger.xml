@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Mestre das trevas" nameDescription="a Mestre das trevas" race="Human" experience="294000000" speed="2500" manacost="280">
+    <health now="95000000" max="95000000"/>
+    <look type="145" head="0" body="114" legs="94" feet="94" addons="3"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="1"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="1"/>
+      <flag pushable="0"/>
+      <flag canpushitems="0"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="1000" min="-100000" max="-980000"/>
+      <attack name="berserk" interval="500" chance="10" min="-32000" max="-92000"/>
+      <attack name="sudden death" interval="500" chance="30" min="-300000" max="-340000"/>
+      <attack name="tides of darkness" interval="500" chance="20" min="-22000" max="-96000"/>
+      <attack name="great energy beam" interval="50" chance="7000" min="-15000" max="-24000"/>
+    </attacks>
+    <defenses armor="0" defense="2"/>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="0"/>
+      <immunity poison="0"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="0"/>
+      <immunity outfit="0"/>
+      <immunity drunk="0"/>
+      <immunity invisible="0"/>
+    </immunities>
+     <voices interval="100" chance="100">
+      <voice sentence="EU SO O REI DAS TREVAS."/>
+      <voice sentence="EU VO TE MANDA PARA O SUB MUNDO!."/>
+      <voice sentence="VC VAI MORRE!."/>
+      <voice sentence="LA NAO TEM VOLTA"/>
+      <voice sentence="CORRA ENQUANTO E TEMPO"/>
+    </voices>
+    <loot>
+      <item id="13685" countmax="100" chance1="100000" chancemax="0"/>
+      <item id="13685" countmax="100" chance1="100000" chancemax="0"/>
+      <item id="3940" chance="100000">
+        <inside>
+          <item id="13560" chance="10000"/>             
+          <item id="13594" chance="10000"/>
+          <item id="13605" chance="10000"/>
+          <item id="13561" chance="10000"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>

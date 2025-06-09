@@ -1,0 +1,13 @@
+<raid>
+<announce delay="15" type="22" message="Three adventurers found a lever accidentally freed Orshabaal he is looking for humans to feeds in the region of Edron. DANGER!" />
+<singlespawn delay="100" name="orshabaal" x="1623" y="404" z="7" />
+<singlespawn delay="100" name="orshabaal" x="1640" y="409" z="7" />
+<singlespawn delay="100" name="orshabaal" x="1649" y="420" z="7" />
+<singlespawn delay="100" name="orshabaal" x="1632" y="420" z="7" />
+<singlespawn delay="100" name="orshabaal" x="1652" y="434" z="7" />
+
+<areaspawn delay="100" fromx="1632" fromy="430" fromz="7" tox="1639" toy="427" toz="7">
+<monster name="demon" amount="2" />
+</areaspawn>
+
+</raid>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="First General" species="magic" nameDescription="a First General" race="blood" experience="400000" speed="400" manacost="0">
+    <health now="500000" max="500000"/>
+    <look type="309" head="95" body="116" legs="95" feet="114" corpse="3128"/>
+    <targetchange interval="60000" chance="5"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-8000" max="-8200"/>
+      <attack name="spear" interval="2500" chance="40" min="-5000" max="-5200"/>
+    </attacks>
+    <defenses armor="40" defense="45">
+      <defense name="Light Healing" interval="4000" chance="20" min="500" max="600"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="4000" chance="25">
+      <voice sentence="then we will fight!"/>
+      <voice sentence="You'll have to go back to where it came from, because you maybe have to try to move it away."/>
+      <voice sentence="Get out now!!"/>
+    </voices>
+    <loot>
+      <item id="2160" countmax="10" chance1="100000" chancemax="0"/>
+      <item id="2147" countmax="15" chance1="100000" chancemax="0"/>
+      <item id="13555" chance="800"/> --Gladiator Helmet
+      <item id="13584" chance="800"/> --Gladiator Armor
+      <item id="1949" chance="1200"/>
+      <item id="1990" chance="10000">
+        <inside>
+          <item id="2471" chance="500"/> --Magic Golden Helmet
+          <item id="13589" chance="500"/> --Magic Golden Armor
+          <item id="13598" chance="500"/> --Magic Golden Legs
+          <item id="13548" chance="500"/> --Divine Sword
+          <item id="13522" chance="500"/> --Hawk Avenger's Hammer
+          <item id="13683" chance="500"/> --Spirit Elemental Amulet
+          <item id="2646" chance="500"/> --Magic Golden Boots
+        </inside>
+      </item>
+    </loot>
+  </monster>
+

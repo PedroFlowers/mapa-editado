@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="VIP Deus Guardian" species="magic" nameDescription="a VIP Deus Guardian" race="blood" experience="3000000" speed="800" manacost="0">
+    <health now="1000000" max="1000000"/>
+    <look type="301" head="95" body="116" legs="95" feet="114" corpse="3128"/>
+    <targetchange interval="60000" chance="5"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="10000"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-12000" max="-15000"/>
+      <attack name="spear" interval="2500" chance="80" min="-9000" max="-11000"/>
+      <attack name="manadrain" interval="3500" chance="30" min="-10000" max="-11000"/>
+      <attack name="energy exori" interval="5000" chance="60" min="-18500" max="-21000"/>
+    </attacks>
+    <defenses armor="40" defense="45">
+      <defense name="Light Healing" interval="9000" chance="20" min="15000" max="20000"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <loot>
+      <item id="13685" countmax="20" chance1="100000" chancemax="0"/>
+      <item id="13581" chance="8000"/> --Shadow Armor
+      <item id="13602" chance="9000"/> --Gladiator Legs
+      <item id="13556" chance="8000"/> --Darkness Helmet
+      <item id="13550" chance="8000"/> --Phoenix Helmet
+      <item id="3940" chance="10000">
+        <inside>
+          <item id="2474" chance="6000"/> --Winged Helmet
+          <item id="13544" chance="6000"/> --Sword Of Odin
+          <item id="13555" chance="9000"/> --Gladiator Helmet
+          <item id="13570" chance="8000"/> --Toguro Shield
+          <item id="13530" chance="5000"/> --Celestial Crossbow
+          <item id="13683" chance="5000"/> --Spirit Elemental Amulet
+          <item id="13501" chance="5000"/> --Adamantiun Axe
+        </inside>
+      </item>
+    </loot>
+  </monster>
+

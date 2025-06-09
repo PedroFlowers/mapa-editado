@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Third General" species="magic" nameDescription="a Third General" race="blood" experience="430000" speed="500" manacost="0">
+    <health now="400000" max="400000"/>
+    <look type="301" head="95" body="116" legs="95" feet="114" corpse="3128"/>
+    <targetchange interval="60000" chance="5"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="50"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-3000" max="-4200"/>
+      <attack name="spear" interval="2500" chance="80" min="-3000" max="-3200"/>
+      <attack name="manadrain" interval="3500" chance="30" min="-2000" max="-3000"/>
+      <attack name="energy exori" interval="3000" chance="60" min="-3000" max="-3500"/>
+    </attacks>
+    <defenses armor="40" defense="45">
+      <defense name="Light Healing" interval="4000" chance="20" min="200" max="300"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="1"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="1"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="5000" chance="30">
+      <voice sentence="give human as I am not so weak and dunnky Agrie!"/>
+      <voice sentence="What the motivation to reach this point? the why? what your goal, winning imperrios the lord Sauron?"/>
+      <voice sentence="quit, you showed a great warrior, lord Sauron has acted very strangely lately, it seems that something the controls, Perhaps you are the hope of a new world, you can pass."/>
+      <voice sentence="more if you can not defeat me will not defeat Sauron proof that I hardly have to prove I can beat you trust the safety of a new world."/>
+    </voices>
+    <loot>
+      <item id="2160" countmax="20" chance1="100000" chancemax="0"/>
+      <item id="13581" chance="800"/> --Shadow Armor
+      <item id="13602" chance="900"/> --Gladiator Legs
+      <item id="13556" chance="800"/> --Darkness Helmet
+      <item id="13550" chance="800"/> --Phoenix Helmet
+      <item id="3940" chance="10000">
+        <inside>
+          <item id="2474" chance="600"/> --Winged Helmet
+          <item id="13544" chance="600"/> --Sword Of Odin
+          <item id="13555" chance="900"/> --Gladiator Helmet
+          <item id="13570" chance="800"/> --Toguro Shield
+          <item id="13530" chance="500"/> --Celestial Crossbow
+          <item id="13683" chance="500"/> --Spirit Elemental Amulet
+          <item id="13501" chance="500"/> --Adamantiun Axe
+        </inside>
+      </item>
+    </loot>
+  </monster>
+

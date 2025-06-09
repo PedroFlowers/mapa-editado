@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<npc name="Perac" script="data/npc/scripts/bows.lua" access="3" lookdir="2">
+	<mana now="800" max="800"/>
+	<health now="200" max="200"/>
+<look type="128" head="66" body="46" legs="2" feet="89"/>
+</npc>

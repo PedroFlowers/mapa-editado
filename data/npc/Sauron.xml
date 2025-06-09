@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Reseter" script="reset.lua" walkinterval="2000" floorchange="0">
+<health now="150" max="150"/>
+<look type="115" head="115" body="0" legs="114" feet="0" addons="3" corpse="2212"/>
+<parameters>
+<parameter key="module_shop" value="1"/>
+<parameter key="message_greet" value="Eae |PLAYERNAME| Tudu Blz? Fala reset para resetar seu lvl ou diga resets. Cuidado ao resetar seu level voltara ao 30 e sua velocidade tambem!"/>
+</parameters>
+</npc>

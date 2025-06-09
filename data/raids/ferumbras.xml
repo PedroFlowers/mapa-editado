@@ -1,0 +1,9 @@
+<raid>
+<announce delay="15" type="22" message="Opened the doors of hell ferumbras is back, it saves a great prize in a castle unknown." />
+<singlespawn delay="100" name="ferumbras" x="918" y="384" z="4" />
+
+<areaspawn delay="100" fromx="913" fromy="387" fromz="4" tox="923" toy="387" toz="4">
+<monster name="demon" amount="2" />
+</areaspawn>
+
+</raid>

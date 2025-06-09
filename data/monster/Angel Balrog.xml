@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Angel Balrog" nameDescription="a Angel Balrog" tp="1" race="undead" species="magic" experience="0" speed="600" manacost="10000">
+    <health now="30000" max="30000"/>
+    <look type="12" head="0" body="0" legs="0" feet="0" corpse="6068" race="2"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="80"/>
+    <flags>
+      <flag summonable="1"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="1"/>
+      <flag convinceable="1"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="40"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+    <attacks>
+      <attack name="melee" interval="2000" min="-2600" max="-3200"/>
+    </attacks>
+    <defenses armor="50" defense="65">
+      <defense name="Ultimate Healing" interval="2000" chance="90" min="50" max="70"/>
+    </defenses>
+    <immunities>
+      <immunity physical="0"/>
+      <immunity energy="0"/>
+      <immunity fire="1"/>
+      <immunity poison="1"/>
+      <immunity lifedrain="0"/>
+      <immunity paralyze="1"/>
+      <immunity outfit="1"/>
+      <immunity drunk="1"/>
+      <immunity invisible="1"/>
+    </immunities>
+    <voices interval="1000" chance="10">
+      <voice sentence="Your soul will be mine!"/>
+    </voices>
+    <loot>
+      <item id="7423" chance="50"/>
+      <item id="7392" chance="500"/>
+      <item id="7406" chance="5000"/>
+      <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+      <item id="2148" countmax="25" chance1="100000" chancemax="0"/>
+      <item id="2393" chance="1000"/>
+      <item id="2514" chance="500"/>
+      <item id="5808" countmax="100" chance1="10000" chancemax="0"/>
+      <item id="2432" chance="1538"/>
+      <item id="2472" countmax="100" chance1="5000" chancemax="0"/>
+      <item id="1987" chance="100000">
+        <inside>
+          <item id="2678" countmax="3" chance1="10000" chancemax="0"/>
+          <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+          <item id="2151" countmax="4" chance1="4000" chancemax="0"/>
+          <item id="2462" chance="555"/>
+          <item id="2149" countmax="3" chance1="1428" chancemax="0"/>
+          <item id="2171" chance="1333"/>
+          <item id="2112" countmax="100" chance1="5000" chancemax="0"/>
+          <item id="2387" chance="6666"/>
+          <item id="2470" chance="400"/>
+          <item id="2421" countmax="100" chance1="5000" chancemax="0"/>
+          <item id="2522" countmax="100" chance1="5000" chancemax="0"/>
+          <item id="2520" countmax="100" chance1="5000" chancemax="0"/>
+          <item id="2418" chance="833"/>
+          <item id="2377" chance="3333"/>
+          <item id="2472" chance="400"/>
+        </inside>
+      </item>
+    </loot>
+  </monster>
