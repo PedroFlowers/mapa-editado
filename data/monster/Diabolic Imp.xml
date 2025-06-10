@@ -71,8 +71,7 @@
            <item id="2464" chance="7887"/> --Chain Armor
            <item id="5944" chance="5666"/> --Soul Orb
            <item id="6500" countmax="1" chance1="7777" chancemax="0"/> --Demonic Essence
-           <item id="2150" countmax="1" chance1="8888" chancemax="0"/> --Small Amethyst
-           <item id="2165" chance="4555"/> --Stealth Ring
+           <item id="2150" countmax="1" chance1="8888" chancemax="0"/> --Small Amethy
            </inside>
          </item>
   

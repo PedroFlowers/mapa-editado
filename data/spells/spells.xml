@@ -248,7 +248,6 @@ MONSTERS
 
 <instant name="Energy Beam" words="exevo vis lux" direction="1" lvl="20" maglv="10" mana="100" soul="0" exhaustion="1" prem="0" enabled="1" script="great energy beam.lua"><vocation id="1"/><vocation id="2"/><vocation id="9"/><vocation id="10"/><vocation id="13"/><vocation id="14"/><vocation id="17"/><vocation id="18"/><vocation id="21"/><vocation id="22"/></instant>
 
-<instant name="Invisible" words="utana vid" selftarget="1" aggressive="0" lvl="35" maglv="14" mana="440" soul="0" exhaustion="1" prem="0" enabled="1" script="invisible.lua"><vocation id="1"/><vocation id="2"/><vocation id="3"/><vocation id="9"/><vocation id="10"/><vocation id="11"/><vocation id="13"/><vocation id="14"/><vocation id="32"/><vocation id="31"/><vocation id="15"/><vocation id="17"/><vocation id="18"/><vocation id="19"/><vocation id="21"/><vocation id="22"/><vocation id="23"/></instant>
 
 <instant name="Berserk" words="exori" lvl="35" maglv="5" manapercent="20" soul="0" exhaustion="1" prem="0" enabled="1" script="berserk.lua"><vocation id="4"/><vocation id="12"/><vocation id="16"/><vocation id="20"/><vocation id="24"/></instant>
 
