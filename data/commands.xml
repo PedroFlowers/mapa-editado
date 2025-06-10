@@ -19,7 +19,7 @@
 -- Gamemasters
 <command cmd="/b" 		access="3" />			-- IP BAN a player
 <command cmd="/ban" 		access="3" />			-- Ban a player
-<command cmd="/t" 		access="0" />			-- Teleport to your temple
+<command cmd="/t" 		access="1" />			-- Teleport to your temple
 <command cmd="/gethouse" 	access="3" />			-- Info about house of a player
 <command cmd="/bans" 		access="3" />			-- Info about who are banished
 <command cmd="/town" 		access="3" />			-- Go to your town
@@ -68,6 +68,6 @@
 <command cmd="!report" 		access="0" />			-- report a bug to the Hoster
 <command cmd="!uptime" 		access="0" />			-- Shows the server's uptime
 <command cmd="!frags" 		access="0" />			-- Shows how many frags the player has
-<command cmd="!adskl" 	        access="0" />			-- Add a decent skill level
+<command cmd="!adskl" 	        access="1" />			-- Add a decent skill level
 
 </commands>

@@ -182,8 +182,6 @@ MONSTERS
 
 <instant name="Cranial Basher" words="exori mas" params="1" needtarget="1" selftarget="1" aggressive="1" lvl="33" maglv="5" mana="160" soul="0" exhaustion="1" prem="0" enabled="1" script="exori mas.lua"><vocation id="12"/><vocation id="4"/><vocation id="20"/><vocation id="8"/><vocation id="21"/></instant>
 
-<instant name="Summon Creature" words="utevo res" aggressive="0" params="1" soul="0" exhaustion="1" prem="0" enabled="1" function="summonMonster"><vocation id="2"/><vocation id="1"/><vocation id="6"/><vocation id="5"/><vocation id="9"/><vocation id="10"/><vocation id="14"/><vocation id="13"/><vocation id="17"/><vocation id="18"/><vocation id="21"/><vocation id="22"/></instant>
-
 <instant name="Create Illusion" words="utevo res ina" params="1" aggressive="0" lvl="10" maglv="20" mana="200" soul="0" exhaustion="1" prem="0" enabled="1" allowfaruse="1" blockwalls="1" function="Illusion"><vocation id="1"/><vocation id="2"/><vocation id="9"/><vocation id="10"/><vocation id="13"/><vocation id="14"/><vocation id="17"/><vocation id="18"/><vocation id="21"/><vocation id="22"/></instant>
 
 <instant name="Find Person" words="exiva" aggressive="0" params="1" lvl="8" maglv="0" mana="20" soul="0" exhaustion="1" prem="0" enabled="1" function="searchPlayer"><vocation id="1"/><vocation id="2"/><vocation id="3"/><vocation id="4"/><vocation id="5"/><vocation id="6"/><vocation id="7"/><vocation id="8"/><vocation id="9"/><vocation id="10"/><vocation id="11"/><vocation id="12"/><vocation id="13"/><vocation id="14"/><vocation id="15"/><vocation id="16"/><vocation id="17"/><vocation id="18"/><vocation id="19"/><vocation id="20"/><vocation id="21"/><vocation id="22"/><vocation id="23"/><vocation id="24"/></instant>
